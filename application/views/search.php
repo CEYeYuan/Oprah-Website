@@ -13,9 +13,9 @@
     <title>The Oprah Effect Database</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
-     <link rel="stylesheet" href="./assets/css/bootstrap.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link type="text/css" href='<?php echo base_url(); ?>assets/css/bootstrap.min.css' rel="stylesheet">
+     <link rel="stylesheet" href='<?php echo base_url(); ?>/assets/css/bootstrap.css'>
+    <link rel="stylesheet" href='<?php echo base_url(); ?>/assets/css/style.css'>
     
 
 
