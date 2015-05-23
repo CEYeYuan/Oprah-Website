@@ -1,0 +1,19 @@
+Language	Slovenian
+Type	Onomatopoeia
+Examples
+hiˈhi	'hee hee'	xixi-ˈta	'she/he/it giggles'
+hu	'hoo hoo'	ˈxu-k-a	'she/he/it hoots'
+həm	'sigh'	ˈxəm-k-a	'she/he/it sighs'
+heˈhɛʔ 'haha'	xeˈxɛ-t	'snickering'
+haˈhaʔ 'haha'	xax-ˈlj-a	'she/he/it snickers'
+hɔps 'jump'	ˈxɔps-a	'she/he/it jumps'
+Source	Jurgec 2015, Weiss XXXX
+Description	Slovenian mimetic words can contain [h], but the sound is changed to [x] in derived words.
+Affixes	
+	Derivational suffixes are triggers
+	Inflectional suffixes no data
+	Prefixes no data
+	Infixes no data (no infixation reported)
+Variation	Regularization extremely unusual in non-derived environments
+	Frequency unknown
+	Extent unknown

@@ -1,0 +1,15 @@
+Language	Catalan
+Type	Loanwords
+Examples
+ˈboston	'Boston'	bustunˈja	'Bostonian'
+Source	Mascaro 1978
+Description	Catalan allows mid vowels {e, ɛ, o, ɔ} in unstressed positions only in some loanwords. When derived, some of these words show regularization in which the vowels must map to licit unstressed vowels. Not all words regularize (e.g. hoˈmeɾ 'Homer' ~ homɛɾ-ik 'Homeric').
+Affixes	
+	Derivational suffixes are triggers 
+	Inflectional suffixes unknown
+	Prefixes unknown
+	Infixes no data
+Variation	Regularization impossible in non-derived environments. Some words do not show regularization.
+	Frequency unknown
+	Extent unknown
+

@@ -1,0 +1,26 @@
+Language	Catalan
+
+Type	Loanwords (Spanish)
+
+Examples
+θəɾəˈɣoθə	'Zaragoza' 	səɾəɣuˈsa	'adjective'
+θəɾˈβantes	'Cervantes' 	səɾβanˈti	'adjective'
+kəˈθaʎə	'cazalla, liquor' 	kəsəˈʎɛt	'diminutive'
+θəɾˈθwelə	'zarzuella, operetta' 	səɾswəˈlat	'zarzuella-like'
+
+Source	Mascaro 2003
+
+Description	Catalan allows [θ] in some Spanish loanwords, as long as they are not derived in which case [s] surfaces instead.  
+
+Affixes	
+	Derivational suffixes are triggers 
+	Inflectional suffixes are not triggers (Francesc Torres-Tamarit, p.c.)
+	Prefixes unknown
+	Infixes no data
+
+Variation	Regularization unusual in non-derived environments (Francesc Torres-Tamarit, p.c.), but attested (Joan Mascaro, p.c.).
+
+Frequency unknown
+
+Extent 	This is a productive process in Catalan for most speakers. Elderly speakers may have only s-forms.
+

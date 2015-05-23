@@ -1,0 +1,22 @@
+Language	Slovenian
+Type	Loanwords (English)
+Examples
+ˈwɔʃiŋktən	'Washington'		ˈʋaʃiŋkton-a	'genitive.singular'
+ˈwilsən	'Wilson'		ˈʋilson-u	'dative.singular'
+ˈwajlt	'Wilde'	ˈʋajld-oʋ-a	'possesive-feminine.nominative.singular'
+twist	'twist'	ˈtʋist-om	'instrumental.singular'
+swiŋk	'swing'	ˈsʋiŋg-a-ti	'verb-infintive'
+Source	Jurgec 2015, Jurgec 2010, Torporišič 1976/2000, Tivadar 2004:440
+Description	Slovenian variantly allows onset [w] in bare roots of recent loanwords from English. In affixed words, [w] is nativized into [ʋ]. Note that [w] is well-formed in codas.
+Affixes	
+	Derivational suffixes are triggers
+	Inflectional suffixes are triggers
+	Prefixes are triggers
+ˈwɔʃiŋktən	'Washington'		ˈnɛ-ˈʋaʃiŋkron	'non-'
+ˈwilsən	'Wilson'		ˈpɾaˈ-ʋilson	'old/grand-'
+ˈwajlt	'Wilde'	supeɾ-ˈʋajlt	'super-'
+	Infixes no data (no infixation reported)
+Variation	Regularization possible in non-derived environments
+	Frequency unknown
+	Extent unknown
+Note	The distribution of v-allophones is complex in Slovenian. The glide [w] is well-formed in codas.

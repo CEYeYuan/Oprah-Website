@@ -1,0 +1,15 @@
+Language	French
+Type	Native and loanwords
+Examples
+lə eʁo 'the hero'	l eʁo-in	'the heroine'
+lə pəti itlɛʁ 'the little Hitler'	œ̃ pətit itleʁjɛ̃	'a little follower of Hitler'
+Source	Kiparsky 1973:89, Kiparsky 1993
+Description	French h-aspiré words begin with a phonetic vowel, they pattern with words that begin with a consonant, allowing the preceding words to end in a vowel. There is a tendency for h-aspiré behavior to be lost in derived words. 
+Affixes	
+	Derivational suffixes are triggers 
+	Inflectional suffixes unknown
+	Prefixes unknown
+	Infixes no data
+Variation	No variation
+	Frequency unknown
+	Extent	few words

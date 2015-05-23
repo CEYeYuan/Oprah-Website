@@ -1,0 +1,37 @@
+Language	Dutch
+
+Type	Loanwords (English)
+
+Examples	
+Op[ɹ]ah	'Oprah'	Op[ʀ]ah-tje	'diminutive'
+Ba[ɹ]ack	'Barack'	Ba[ʀ]ack-se	'adjective'
+[ɹ]eading	'Reading (town)'	[ʀ]eading-je	'diminutive'
+Flo[ɹ]ida	'Florida'	Flo[ʀ]ida-tje	'diminutive'
+
+Source	Jurgec 2014, Marc van Oostendorp, p.c., Eefje Boef, p.c.
+
+Description	In those Dutch dialects that do not allow [ɹ], this sound is possible in some English loanwords. When derived, [ɹ] is nativized into [ʀ] (or another native rhotic). 
+
+Affixes	
+	Derivational suffixes are triggers
+See main data
+
+	Inflectional suffixes are not triggers
+Op[ɹ]ah	'Oprah'	Op[ɹ]ah-[s]	'plural'
+Ba[ɹ]ack	'Barack'	Ba[ɹ]ack-[s]	'plural'	
+[ɹ]ex	'Rex' [ɹ]ex-en	'plural'
+Flo[ɹ]ida	'Florida'	Flo[ɹ]ida-[s]	'plural'
+
+	Prefixes are not triggers
+Op[ɹ]ah	'Oprah'	Hoofd-op[ɹ]ah	'main, true'
+Ba[ɹ]ack	'Barack'	Quasi-Ba[ɹ]ack	'Quasi-'	
+Flo[ɹ]ida	'Florida'	Wan-flo[ɹ]ida	'bad'	
+[ɹ]eading	'Reading (town)'	Hoofd-[ɹ]eading	 'main, true'
+
+	Infixes no data
+
+Variation	Regularization possible in non-derived environments
+Frequency unknown
+Extent unknown
+
+	

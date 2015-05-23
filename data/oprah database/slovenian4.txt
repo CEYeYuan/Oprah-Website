@@ -1,0 +1,26 @@
+Language	Slovenian
+
+Type	Loanwords (German, French, Slovenian dialects)
+
+Examples
+ˈmynxən	'Munich'	ˈminxen-sk-i	'adjective-masculine.nominative.singular'
+ˈmyləɾ	'Müller (name)'	ˈmileɾ-jeʋ-a	'possesive-feminine.nominative.singular'
+tyɾk	'Türk (name)'	ˈtiɾk-om	'instrumental.singular'
+ˈmysli	'muesli'	ˈmisli-je	'accusative'
+ˈnyɾəmbeɾk	'Nuremberg'	niɾembeɾg-a	'genitive.singular'
+ˈgøte	'Goethe'	ˈgete-ju	'dative.singular'
+ˈʃɾødəɾ	'Schröder (name)'	ˈʃɾedeɾ-ji	'nominative.plural'
+ˈkœlən	'Cologne'	ˈkelen-sk-i	'adjective-masculine.nominative.singular'
+ˈʦyɾix 	'Zurich'	ˈʦiɾix-a	'genitive.singular'	
+
+Source	Jurgec 2015, Jurgec 2010, Torporišič 1976/2000
+
+Description	Slovenian variantly allows front round vowels in bare roots of some German or dialectal loanwords. In affixed words, round vowels are typically replaced by their unrounded counterparts. In some cases, back rounded vowels a preferred repair instead.
+Affixes	
+	Derivational suffixes are triggers
+	Inflectional suffixes are triggers
+	Prefixes are triggers
+	Infixes no data (no infixation reported)
+Variation	Regularization possible in non-derived environments
+	Frequency unknown
+	Extent unknown

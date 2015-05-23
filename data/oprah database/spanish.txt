@@ -1,0 +1,14 @@
+Language	Spanish
+Type	Loanwords (English)
+Examples	
+	skajp	‘Skype’		eskajp(e)s ‘plural’
+	skejt	‘skate’		eskejtar	‘to skate’
+Source	Violeta Martinez-Paricio, p.c.
+Description	sC clusters are illicit in Spanish, but can occur in recent loanwords. When the loanwords are derived, e is epenthesized, in accordance with the native phonology.
+Affixes	Inflectional suffixes are triggers
+	Derivational suffixes are triggers
+	Prefixes unknown
+	Infixes none
+Variation	Regularization possible in non-derived environments
+	Frequency unknown
+	Extent unknown
