@@ -16,7 +16,22 @@ class Main extends CI_Controller {
 			echo "<br/><br/><br/><p>No results found</p>";
 			$this->load->view('search');
 		}else{
-			echo "found some data !";
+			echo "</br><br/><br/>found some data !";
+	
+			$result=$this->query_language->query_all();
+			$data['name']=$result->row()->name;
+			$data['type']=$result->row()->type;
+			$data['examples']=$result->row()->examples;
+			$data['source']=$result->row()->source;
+			$data['description']=$result->row()->description;
+			$data['derivational']=$result->row()->derivational;
+			$data['inflectional']=$result->row()->inflectional;
+			$data['prefixes']=$result->row()->prefixes;
+			$data['infixes']=$result->row()->infixes;
+			$data['variation']=$result->row()->variation;
+			$data['frequency']=$result->row()->frequency;
+			$data['extent']=$result->row()->extent;
+			$this->load->view('result',$data);
 		}
 	}
 
