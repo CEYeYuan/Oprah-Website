@@ -26,19 +26,47 @@
         </br>
         </br>
         <div  class="input-group">
-            <form id="frmOptions" method="post" class="span12 col-lg-4 col-lg-offset-4" action='<?php echo base_url();?>main/query'>
+            <form id="frmOptions" method="get" class="span12 col-lg-4 col-lg-offset-4" action='<?php echo base_url();?>main/query'>
                 <div class="row-fluid">
                     <div class="form-group">
                         <div class="input-group ">
-                            <input type="text" class="form-control " placeholder="Search" name="content" >
+                            <input type="text" class="form-control " placeholder="Search" 
+                            name="content" >
                             <span class="input-group-btn col-lg-offset-4"><button type="submit" class="btn btn-success">Search</button></span>
                         </div>
                     </div>
                 </div>
             </form>
         </div>
+
+        <div class="jumbotron">
+            <div class="container">
+                </br>
+                <div style="text-align:center">
+
+    
         <?php 
-            echo "<div style='text-align:center'>";
+            foreach($result->result() as $row){
+               echo "<p style='text-align:left;font-size:12pt'><b>Language: </b>".$row->name."</p>";
+               $string=str_replace(' ', '', $row->title);
+               $url=base_url().$string;
+               echo "<p style='text-align:left;font-size:12pt'><b>Title: </b><a href=$url>".$row->title."</a></p>";
+               echo "</br>";
+            }
+
+            $data['name']=$result->row()->name;
+            $data['type']=$result->row()->type;
+            $data['examples']=$result->row()->examples;
+            $data['source']=$result->row()->source;
+            $data['description']=$result->row()->description;
+            $data['derivational']=$result->row()->derivational;
+            $data['inflectional']=$result->row()->inflectional;
+            $data['prefixes']=$result->row()->prefixes;
+            $data['infixes']=$result->row()->infixes;
+            $data['variation']=$result->row()->variation;
+            $data['frequency']=$result->row()->frequency;
+            $data['extent']=$result->row()->extent;
+            /*echo "<div style='text-align:center'>";
             echo "<p><b>Language:</b>".$name."</p>";
             echo "<p><b>Type:</b>".$type."</p>";
             echo "<p><b>Examples:</b>".$examples."</p>";
@@ -51,8 +79,12 @@
             echo "<p><b>Variation:</b>".$variation."</p>";
             echo "<p><b>Frequency:</b>".$frequency."</p>";
             echo "<p><b>Extent:</b>".$extent."</p>";
-            echo "</div>";
+            echo "</div>";*/
             ?>
+                </div>
+            </div>
+        </div>
+
         <?php $this->load->view('footer'); ?>
     </body>
 </html>

@@ -49,12 +49,15 @@
 			</div>
 		</div>
 		<div  class="input-group">
-			<form id="frmOptions" method="post" class="span12 col-lg-4 col-lg-offset-4" action='<?php echo base_url();?>main/query'>
+			<form id="frmOptions" method="get" class="span12 col-lg-4 col-lg-offset-4" action='<?php echo base_url();?>main/query'>
 				<div class="row-fluid">
 					<div class="form-group">
 						<div class="input-group ">
-							<input type="text" class="form-control " placeholder="Search" name="content" >
-							<span class="input-group-btn col-lg-offset-4"><button type="submit" class="btn btn-success">Search</button></span>
+							<input type="text" class="form-control " placeholder="Search" 
+							name="content" >
+							<span class="input-group-btn col-lg-offset-4">
+								<button type="submit" class="btn btn-success">Search</button>
+							</span>
 						</div>
 					</div>
 				</div>
