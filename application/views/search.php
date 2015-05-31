@@ -42,14 +42,10 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-      </br>
-       </br>
-        </br>
-         </br>
-          </br>
+    
            </br>
            <div style="text-align:center">
-                <img src="<?php echo base_url();?>assets/img/linguistics_logo.jpg" alt="logo" />
+               <!-- <img src="<?php echo base_url();?>assets/img/linguistics_logo.jpg" alt="logo" /><-->
            </div>
         
 
@@ -60,16 +56,7 @@
                 </br>
                  </br>
 
-      <div id="navbar" class="navbar-collapse collapse">
-          <form class=" col-lg-4 col-lg-offset-4" action='<?php echo base_url();?>main/query' method="get">
-            <div class="" style="text-align:center">
-              <input type="text" class="form-control " placeholder="Search" name="content" >
-              <button type="submit" class="btn btn-success">Search</button>
-            </div>
-           
-            
-          </form>
-    </div><!--/.navbar-collapse -->
+      
        
         <p style="font-size:12pt"><b>About</b> 
 
@@ -79,9 +66,29 @@ The Oprah effect is an underdescribed phenomenon that involves an alternation an
 
 The Oprah effect is unlike most phonological patterns in that the alternating sound can be at any distance from the affix. As we will see, these sounds may differ in what kind of morphologically complex words they appear, both within a single language and across languages. For example, some sounds are possible in suffixed, but not prefixed, words. Other sounds are possible in inflected, but not derived, words. We will also see that while the Oprah effect is particularly common in loanwords, it can be found in native words as well.
 </p>
+<p style="font-size:12pt"> You can search this database by entering keywords below. You can also search the database by specific criteria.</p>
        
       </div>
     </div>
+
+
+
+    <div  class="input-group">
+<form id="frmOptions" method="post" class="span12 col-lg-4 col-lg-offset-4" action='<?php echo base_url();?>main/query'>
+    <div class="row-fluid">   
+        <div class="form-group">
+       
+            <div class="input-group ">
+                 <input type="text" class="form-control " placeholder="Search" name="content" >
+
+                 <span class="input-group-btn col-lg-offset-4"><button type="submit" class="btn btn-success">Search</button></span>
+
+            </div>
+        </div>
+    </div>
+</form>
+</div><!--/.navbar-collapse -->
+
 
      <?php $this->load->view('footer');?>
 
