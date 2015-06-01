@@ -58,6 +58,27 @@
 							<span class="input-group-btn col-lg-offset-4">
 								<button type="submit" class="btn btn-success">Search</button>
 							</span>
+
+						</div>
+
+
+						<div style="font-size:12pt">
+							<br/>
+							<b>Type:</b>
+							<input type="checkbox"/>Native 
+							<input type="checkbox"/>Loanwords
+							<input type="checkbox"/> Others
+							<br/>
+							<b>Affixes:</b>
+							<input type="checkbox"/>Derivational 
+							<input type="checkbox"/>Inflectional
+							<input type="checkbox"/>Prefixes
+							<input type="checkbox"/>Infixes
+							<br/>
+							<b>Variation:</b>
+							<input type="checkbox"/>Yes
+							<input type="checkbox"/>No
+							<input type="checkbox"/>Other
 						</div>
 					</div>
 				</div>

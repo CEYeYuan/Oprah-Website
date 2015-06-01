@@ -15,6 +15,7 @@
 |
 */
 $config['base_url']	= 'http://localhost/oprahDatabase/';
+//$config['base_url']	= 'http://ec2-52-0-129-137.compute-1.amazonaws.com/oprahDatabase/';
 
 // The following (commented out) is the base_url for production
 // $config['base_url'] = 'http://www.lac-main.duckdns.org/communityFund/';
