@@ -10,11 +10,13 @@ CREATE DATABASE if not  EXISTS oprah CHARACTER SET = utf8mb4 COLLATE = utf8mb4_u
 USE oprah;
 
 DROP TABLE IF EXISTS language CASCADE;
+SET auto_increment_increment=1;
 
 CREATE TABLE language (
+	id integer auto_increment primary key,
 	title varchar(200),
-	name varchar(30),
-	type varchar(40),
+	name varchar(300),
+	type varchar(200),
 	examples varchar(3000),
 	source varchar(300),
 	description varchar(2000),
@@ -27,8 +29,10 @@ CREATE TABLE language (
 	extent varchar(300)
 )CHARACTER SET utf8;
 
-insert into language values("R-nativization in Slovenian",'Slovenian',
-'Loanwords (English)',"ɹɔk	'rock'		ˈɾok-oma	'instrumental.dual'
+insert into language (title,name,type,examples,source,description,derivational,
+	inflectional,prefixes,infixes,variation,frequency,extent)
+ values("R-nativization in Slovenian","Slovenian",
+"Loanwords (English)","ɹɔk	'rock'		ˈɾok-oma	'instrumental.dual'
 ˈɹɔbin	'Robin'	ˈɾobin-u	'locative.singular'
 ˈɹɛgan	'Reagan'	ˈɾegan-i	'nominative.plural'
 foɹt	'Ford'	ˈfoɾd-iʧ	'diminutive'
@@ -47,7 +51,8 @@ maɹk	'Marc'	ˈmaɾk-ix	'locative.plural'
 ","ɹɔk	'rock'		ˈanti-ˈɾok	'anti-'
 ˈɹɔbin	'Robin'	ˈpOd-ˈɾɔbin		'sub-'
 ˈɹɛgan	'Reagan'	ˈnʌdˈ-ɾɛgan	'uber-'",'',"Regularization possible in non-derived environments.",'','');
-insert into language values("W-nativization in Slovenian","Slovenian","Loanwords (English)",
+insert into language (title,name,type,examples,source,description,derivational,
+	inflectional,prefixes,infixes,variation,frequency,extent) values("W-nativization in Slovenian","Slovenian","Loanwords (English)",
 "ˈwɔʃiŋktən	'Washington'		ˈʋaʃiŋkton-a	'genitive.singular'
 ˈwilsən	'Wilson'		ˈʋilson-u	'dative.singular'
 ˈwajlt	'Wilde'	ˈʋajld-oʋ-a	'possesive-feminine.nominative.singular'
@@ -59,7 +64,8 @@ swiŋk	'swing'	ˈsʋiŋg-a-ti	'verb-infintive'",
 ˈwilsən	'Wilson'		ˈpɾaˈ-ʋilson	'old/grand-'
 ˈwajlt	'Wilde'	supeɾ-ˈʋajlt	'super-'","no data (no infixation reported)","Regularization possible in non-derived environments",
  "unknown","unknown");
-insert into language values("H-regularization in Slovenian","Slovenian","Onomatopoeia","hiˈhi	'hee hee'	xixi-ˈta	'she/he/it giggles'
+insert into language(title,name,type,examples,source,description,derivational,
+	inflectional,prefixes,infixes,variation,frequency,extent) values("H-regularization in Slovenian","Slovenian","Onomatopoeia","hiˈhi	'hee hee'	xixi-ˈta	'she/he/it giggles'
 hu	'hoo hoo'	ˈxu-k-a	'she/he/it hoots'
 həm	'sigh'	ˈxəm-k-a	'she/he/it sighs'
 heˈhɛʔ 'haha'	xeˈxɛ-t	'snickering'
@@ -67,7 +73,8 @@ haˈhaʔ 'haha'	xax-ˈlj-a	'she/he/it snickers'
 hɔps 'jump'	ˈxɔps-a	'she/he/it jumps'","<a href=“/references”>Weiss 1998</a>, <a href=“/references”>Jurgec 2015</a>",
 "Slovenian mimetic words can contain [h], but the sound is changed to [x] in derived words.","","","no data","no data (no infixation reported)","Regularization extremely unusual in non-derived environments",
 "unknown","unknown");
-insert into language values("Front vowel nativization in Slovenian","Slovenian","Loanwords (German, French, Slovenian dialects)",
+insert into language(title,name,type,examples,source,description,derivational,
+	inflectional,prefixes,infixes,variation,frequency,extent) values("Front vowel nativization in Slovenian","Slovenian","Loanwords (German, French, Slovenian dialects)",
 "ˈmynxən	'Munich'	ˈminxen-sk-i	'adjective-masculine.nominative.singular'
 ˈmyləɾ	'Müller (name)'	ˈmileɾ-jeʋ-a	'possesive-feminine.nominative.singular'
 tyɾk	'Türk (name)'	ˈtiɾk-om	'instrumental.singular'
@@ -80,12 +87,14 @@ tyɾk	'Türk (name)'	ˈtiɾk-om	'instrumental.singular'
 ","<a href=“/references”>Jurgec 2015</a>, <a href=“/references”>Jurgec 2010</a>, <a href=“/references”>Torporišič 1976/2000</a>",
 "Slovenian variantly allows front round vowels in bare roots of some German or dialectal loanwords. In affixed words, round vowels are typically replaced by their unrounded counterparts. In some cases, back rounded vowels a preferred repair instead.",
 "","","","no data (no infixation reported)","Regularization possible in non-derived environments","unknown","unknown");
-insert into language values("Initial s-clusters in Spanish","Spanish","Loanwords (English)",
+insert into language(title,name,type,examples,source,description,derivational,
+	inflectional,prefixes,infixes,variation,frequency,extent) values("Initial s-clusters in Spanish","Spanish","Loanwords (English)",
 	"skajp	‘Skype’		eskajp(e)s ‘plural’
 	skejt	‘skate’		eskejtar	‘to skate’","Violeta Martinez-Paricio, p.c.","sC clusters are illicit in Spanish, but can occur in recent loanwords. When the loanwords are derived, e is epenthesized, in accordance with the native phonology.",
 	"","","unknown","none","Regularization possible in non-derived environments","unknown","unknown");
 
-insert into language values("θ-nativization in Catalan","Catalan","Loanwords (Spanish)",
+insert into language(title,name,type,examples,source,description,derivational,
+	inflectional,prefixes,infixes,variation,frequency,extent) values("θ-nativization in Catalan","Catalan","Loanwords (Spanish)",
 "θəɾəˈɣoθə	'Zaragoza' 	səɾəɣuˈsa	'adjective'
 θəɾˈβantes	'Cervantes' 	səɾβanˈti	'adjective'
 kəˈθaʎə	'cazalla, liquor' 	kəsəˈʎɛt	'diminutive'

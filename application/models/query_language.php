@@ -12,6 +12,11 @@ class Query_language extends CI_Model{
 			return 0;
 		return $result;
 	}
+	public function query_byid($id){
+		$sql="select * from language where id='$id'";
+		$result=$this->db->query($sql);
+		return $result;
+	}
 }
 
 

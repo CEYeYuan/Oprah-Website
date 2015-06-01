@@ -48,8 +48,8 @@
         <?php 
             foreach($result->result() as $row){
                echo "<p style='text-align:left;font-size:12pt'><b>Language: </b>".$row->name."</p>";
-               $string=str_replace(' ', '', $row->title);
-               $url=base_url().$string;
+               
+               $url=base_url().'main/id/'.$row->id;
                echo "<p style='text-align:left;font-size:12pt'><b>Title: </b><a href=$url>".$row->title."</a></p>";
                echo "</br>";
             }

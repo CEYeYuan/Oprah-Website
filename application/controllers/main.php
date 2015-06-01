@@ -20,20 +20,28 @@ class Main extends CI_Controller {
 	
 			$result=$this->query_language->query_all();
 			$data['result']=$result;
-			$data['name']=$result->row()->name;
-			$data['type']=$result->row()->type;
-			$data['examples']=$result->row()->examples;
-			$data['source']=$result->row()->source;
-			$data['description']=$result->row()->description;
-			$data['derivational']=$result->row()->derivational;
-			$data['inflectional']=$result->row()->inflectional;
-			$data['prefixes']=$result->row()->prefixes;
-			$data['infixes']=$result->row()->infixes;
-			$data['variation']=$result->row()->variation;
-			$data['frequency']=$result->row()->frequency;
-			$data['extent']=$result->row()->extent;
+			
 			$this->load->view('result',$data);
 		}
+	}
+
+	public function id($id){
+		$this->load->model('query_language');
+		$result=$this->query_language->query_byid($id);
+		$data['name']=$result->row()->name;
+		$data['type']=$result->row()->type;
+		$data['examples']=$result->row()->examples;
+		$data['source']=$result->row()->source;
+		$data['description']=$result->row()->description;
+		$data['derivational']=$result->row()->derivational;
+		$data['inflectional']=$result->row()->inflectional;
+		$data['prefixes']=$result->row()->prefixes;
+		$data['infixes']=$result->row()->infixes;
+		$data['variation']=$result->row()->variation;
+		$data['frequency']=$result->row()->frequency;
+		$data['extent']=$result->row()->extent;
+		$this->load->view('entry',$data);
+
 	}
 
 	
