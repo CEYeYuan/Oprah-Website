@@ -47,6 +47,7 @@
         <?php 
          
             echo "<div style='text-align:center'>";
+            echo "<p style='text-align:left;font-size:12pt'><b>Title:</b>".$title."</p>";
             echo "<p style='text-align:left;font-size:12pt'><b>Language:</b>".$name."</p>";
             echo "<p style='text-align:left;font-size:12pt'><b>Type:</b>".$type."</p>";
 

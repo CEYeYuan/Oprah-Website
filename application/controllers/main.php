@@ -28,6 +28,7 @@ class Main extends CI_Controller {
 	public function id($id){
 		$this->load->model('query_language');
 		$result=$this->query_language->query_byid($id);
+		$data['title']=$result->row()->title;
 		$data['name']=$result->row()->name;
 		$data['type']=$result->row()->type;
 		$data['examples']=$result->row()->examples;
