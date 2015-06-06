@@ -64,21 +64,18 @@
 
 						<div style="font-size:12pt">
 							<br/>
-							<b>Type:</b>
-							<input type="checkbox"/>Native 
-							<input type="checkbox"/>Loanwords
-							<input type="checkbox"/> Others
+							<b>Type: &nbsp &nbsp &nbsp &nbsp</b>
+							<input type="checkbox" name="type" value="Native"/>Native &nbsp &nbsp
+							<input type="checkbox" name="type" value="Loanwords"/>Loanwords &nbsp &nbsp
+							<input type="checkbox" name="type" value="Others"/> Others
 							<br/>
-							<b>Affixes:</b>
-							<input type="checkbox"/>Derivational 
-							<input type="checkbox"/>Inflectional
-							<input type="checkbox"/>Prefixes
+							<b>Affixes: &nbsp &nbsp</b>
+							<input type="checkbox"/>Derivational  &nbsp &nbsp
+							<input type="checkbox"/>Inflectional &nbsp &nbsp
+							<input type="checkbox"/>Prefixes &nbsp &nbsp
 							<input type="checkbox"/>Infixes
 							<br/>
-							<b>Variation:</b>
-							<input type="checkbox"/>Yes
-							<input type="checkbox"/>No
-							<input type="checkbox"/>Other
+							
 						</div>
 					</div>
 				</div>

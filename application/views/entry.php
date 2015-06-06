@@ -47,9 +47,9 @@
         <?php 
          
             echo "<div style='text-align:center'>";
-            echo "<p style='text-align:left;font-size:12pt'><b>Title:</b>".$title."</p>";
-            echo "<p style='text-align:left;font-size:12pt'><b>Language:</b>".$name."</p>";
-            echo "<p style='text-align:left;font-size:12pt'><b>Type:</b>".$type."</p>";
+            echo "<p style='text-align:left;font-size:12pt'><b>Title:</b>&nbsp".$title."</p>";
+            echo "<p style='text-align:left;font-size:12pt'><b>Language:</b>&nbsp".$name."</p>";
+            echo "<p style='text-align:left;font-size:12pt'><b>Type:</b>&nbsp".$type."</p>";
 
             echo "<p style='text-align:left;font-size:12pt'><b>Examples:</b>";
            // $example = preg_split("/[\s,]+/",$examples);
@@ -80,9 +80,9 @@
             echo "</table>";
             echo "</p>";
             
-            echo "<p style='text-align:left;font-size:12pt'><b>Source:</b>".$source."</p>";
-            echo "<p style='text-align:left;font-size:12pt'><b>Description:</b>".$description."</p>";
-            echo "<p style='text-align:left;font-size:12pt'><b>Derivational:</b>";
+            echo "<p style='text-align:left;font-size:12pt'><b>Source:</b>&nbsp".$source."</p>";
+            echo "<p style='text-align:left;font-size:12pt'><b>Description:</b>&nbsp".$description."</p>";
+            echo "<p style='text-align:left;font-size:12pt'><b>Derivational:</b>&nbsp";
                 if(strlen($derivational)>=50){
                  $regexp = '/\G(?:"[^"]*"|\'[^\']*\'|[^"\'\s]+)*\K\s+/';
                   $de = preg_split($regexp, $derivational);
@@ -108,7 +108,7 @@
                 }else
                 echo $derivational;
             echo "</p>";
-            echo "<p style='text-align:left;font-size:12pt'><b>Inflectional:</b>";
+            echo "<p style='text-align:left;font-size:12pt'><b>Inflectional:</b>&nbsp";
             
             if(strlen($inflectional)>=50){
                  $regexp = '/\G(?:"[^"]*"|\'[^\']*\'|[^"\'\s]+)*\K\s+/';
@@ -128,14 +128,14 @@
                 echo "<td style='text-align:left;font-size:12pt'>".$example[4*$x+2]."</td>";
                 echo "<td style='text-align:left;font-size:12pt'>".$example[4*$x+3]."</td>";
                 echo "</tr>";
-                echo "</p >";
+                echo "</p>";
             }
             echo "</table>";
             echo "</p>";
                 }else
                 echo $inflectional;
             echo "</p>";
-            echo "<p style='text-align:left;font-size:12pt'><b>Prefixes:</b>";
+            echo "<p style='text-align:left;font-size:12pt'><b>Prefixes:</b>&nbsp";
            
             if( strlen($prefixes)>=50){
                  $regexp = '/\G(?:"[^"]*"|\'[^\']*\'|[^"\'\s]+)*\K\s+/';
@@ -162,10 +162,35 @@
                 }else
                 echo $prefixes;
             echo "</p>";
-            echo "<p style='text-align:left;font-size:12pt'><b>Infixes:</b>".$infixes."</p>";
-            echo "<p style='text-align:left;font-size:12pt'><b>Variation:</b>".$variation."</p>";
-            echo "<p style='text-align:left;font-size:12pt'><b>Frequency:</b>".$frequency."</p>";
-            echo "<p style='text-align:left;font-size:12pt'><b>Extent:</b>".$extent."</p>";
+            echo "<p style='text-align:left;font-size:12pt'><b>Infixes:</b>&nbsp";
+             if( strlen($infixes)>=50){
+                 $regexp = '/\G(?:"[^"]*"|\'[^\']*\'|[^"\'\s]+)*\K\s+/';
+                  $example = preg_split($regexp, $infixes);
+
+                 $i=count($example);
+                  echo "<table>";
+                echo "<col width='110'>";
+                echo "<col width='180'>";
+                echo "<col width='110'>";
+                echo "<col width='500'>";    
+            for ($x=0;4*$x+3<$i;$x++){
+                echo "<tr>";
+                echo "<p >";
+                echo "<td style='text-align:left;font-size:12pt'>".$example[4*$x]."</td>";
+                echo "<td style='text-align:left;font-size:12pt'>".$example[4*$x+1]."</td>";
+                echo "<td style='text-align:left;font-size:12pt'>".$example[4*$x+2]."</td>";
+                echo "<td style='text-align:left;font-size:12pt'>".$example[4*$x+3]."</td>";
+                echo "</tr>";
+                echo "</p >";
+            }
+            echo "</table>";
+            echo "</p>";
+                }else
+                echo $infixes;
+            echo "</p>";
+            echo "<p style='text-align:left;font-size:12pt'><b>Variation:</b>&nbsp".$variation."</p>";
+            echo "<p style='text-align:left;font-size:12pt'><b>Frequency:</b>&nbsp".$frequency."</p>";
+            echo "<p style='text-align:left;font-size:12pt'><b>Extent:</b>&nbsp".$extent."</p>";
             echo "</div>";
             ?>
                 </div>

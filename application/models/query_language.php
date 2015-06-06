@@ -2,12 +2,35 @@
 class Query_language extends CI_Model{
 	public function query_all(){
 		$content='%'.$this->input->get('content').'%';
-		$sql="select distinct * from language where name like '$content' or type like '$content' or
+		$sql_s="select distinct * from";
+		$sql_e=" where name like '$content' or type like '$content' or
 		examples like '$content' or source like '$content' or description like '$content' or
 		derivational like '$content' or inflectional like '$content' or prefixes like '$content'
 		or infixes like '$content' or variation like '$content' or frequency like '$content'
 		or extent like '$content'";
-		$result=$this->db->query($sql);
+
+
+		$type[]=$this->input->get('type');
+		$count=count($type);
+		$sql_m="(select * from language where  1=1";
+		for ($i=0;$i<$count;$i++){
+			if ($type[$i]!='Others'){
+				$tmp='%'.$type[$i].'%';
+				$sql_m=$sql_m." and type like '$tmp' ";
+			}else{
+				$tmp=" and type not like '%Native%' and type not like '%Loanwords%'";
+				$sql_m=$sql_m.$tmp;
+			}
+			
+		}
+		$sql_m=$sql_m.") T";
+
+		
+		
+		
+		$result=$this->db->query($sql_s.$sql_m.$sql_e);
+
+
 		if ($result->num_rows()===0)
 			return 0;
 		return $result;
