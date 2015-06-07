@@ -44,7 +44,7 @@ class Query_language extends CI_Model{
 		
 		for ($j=0;$j<$count1;$j++){
 			if ($affixes[$j]!=''){
-				$tmp=' and '.$affixes[$j]."!=''";
+				$tmp=' and '.$affixes[$j]." not like '%no data%'";
 				$sql_m=$sql_m.$tmp;
 			}
 		}
