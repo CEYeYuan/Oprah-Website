@@ -10,19 +10,32 @@ class Query_language extends CI_Model{
 		or extent like '$content'";
 
 
-		$type[]=$this->input->get('type');
-		$count=count($type);
+		$type=$this->input->get('type');
+		$affixes=$this->input->get('affixes');
+		$count0=count($type);
+		$count1=count($affixes);
+		
 		$sql_m="(select * from language where  1=1";
-		for ($i=0;$i<$count;$i++){
-			if ($type[$i]!='Others'){
-				$tmp='%'.$type[$i].'%';
-				$sql_m=$sql_m." and type like '$tmp' ";
-			}else{
-				$tmp=" and type not like '%Native%' and type not like '%Loanwords%'";
+		
+		for ($i=0;$i<$count0;$i++){
+			if ($type[$i]!=''){
+				if ($type[$i]!='Others'){
+					$tmp='%'.$type[$i].'%';
+					$sql_m=$sql_m." and type like '$tmp' ";
+				}else{
+					$tmp=" and type not like '%Native%' and type not like '%Loanwords%'";
+					$sql_m=$sql_m.$tmp;
+				}	
+			}
+		}
+		
+		for ($j=0;$j<$count1;$j++){
+			if ($affixes[$j]!=''){
+				$tmp=' and '.$affixes[$j]."!=''";
 				$sql_m=$sql_m.$tmp;
 			}
-			
 		}
+
 		$sql_m=$sql_m.") T";
 
 		
