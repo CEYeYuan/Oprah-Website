@@ -65,15 +65,15 @@
 						<div style="font-size:12pt">
 							<br/>
 							<b>Type: &nbsp &nbsp &nbsp &nbsp</b>
-							<input type="checkbox" name="type[]" value="Native"/>Native &nbsp &nbsp
-							<input type="checkbox" name="type[]" value="Loanwords"/>Loanwords &nbsp &nbsp
+							<input type="checkbox" name="type[]" value="Native"/> Native &nbsp &nbsp
+							<input type="checkbox" name="type[]" value="Loanwords"/> Loanwords &nbsp &nbsp
 							<input type="checkbox" name="type[]" value="Others"/> Others
 							<br/>
 							<b>Affixes: &nbsp &nbsp</b>
-							<input type="checkbox" name="affixes[]" value='derivational'/>Derivational  &nbsp &nbsp
-							<input type="checkbox" name="affixes[]" value='inflectional'/>Inflectional &nbsp &nbsp
-							<input type="checkbox" name="affixes[]" value='prefixes'/>Prefixes &nbsp &nbsp
-							<input type="checkbox" name="affixes[]" value='infixes'/>Infixes
+							<input type="checkbox" name="affixes[]" value='derivational'/> Derivational  &nbsp &nbsp
+							<input type="checkbox" name="affixes[]" value='inflectional'/> Inflectional &nbsp &nbsp
+							<input type="checkbox" name="affixes[]" value='prefixes'/> Prefixes &nbsp &nbsp
+							<input type="checkbox" name="affixes[]" value='infixes'/> Infixes
 							<br/>
 							
 						</div>
