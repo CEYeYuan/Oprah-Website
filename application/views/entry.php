@@ -168,7 +168,7 @@
                   $example = preg_split($regexp, $infixes);
 
                  $i=count($example);
-                  echo "<table>";
+                echo "<table>";
                 echo "<col width='110'>";
                 echo "<col width='180'>";
                 echo "<col width='110'>";
@@ -189,7 +189,44 @@
                 echo $infixes;
             echo "</p>";
             echo "<p style='text-align:left;font-size:12pt'><b>Variation:</b>&nbsp".$variation."</p>";
-            echo "<p style='text-align:left;font-size:12pt'><b>Frequency:</b>&nbsp".$frequency."</p>";
+            echo "<p style='text-align:left;font-size:12pt'><b>Frequency:</b>&nbsp";
+            if($name!='Tagalog')
+                echo  $frequency;
+            else{
+                echo "<p style='text-align:left;font-size:12pt'>";
+                echo "Corpus data available.";
+                echo "</p>";
+               $str="filipino 20,074        pilipino 12,011 
+                affix+filipino 86   affix+pilipino 1,117
+                fiesta 952  pista 416   
+                affix+fiesta 27 ~ affix+pista 607";
+
+                 $regexp = '/\G(?:"[^"]*"|\'[^\']*\'|[^"\'\s]+)*\K\s+/';
+                  $example = preg_split($regexp, $str);
+
+                 $i=count($example);
+                echo "<table>";
+                echo "<col width='110'>";
+                echo "<col width='180'>";
+                echo "<col width='110'>";
+                echo "<col width='500'>";    
+            for ($x=0;4*$x+3<$i;$x++){
+                echo "<tr>";
+                echo "<p >";
+                echo "<td style='text-align:left;font-size:12pt'>".$example[4*$x]."</td>";
+                echo "<td style='text-align:left;font-size:12pt'>".$example[4*$x+1]."</td>";
+                echo "<td style='text-align:left;font-size:12pt'>".$example[4*$x+2]."</td>";
+                echo "<td style='text-align:left;font-size:12pt'>".$example[4*$x+3]."</td>";
+                echo "</tr>";
+                echo "</p >";
+            }
+            echo "</table>";
+            echo "</p>";
+            }
+            echo "<p style='text-align:left;font-size:12pt'>";
+            echo "F-variants are about twice as frequent as p-variants in the non-affixed words. F-variants are rare in affixed words.";
+            echo "</p>";  
+            echo "</p>";
             echo "<p style='text-align:left;font-size:12pt'><b>Extent:</b>&nbsp".$extent."</p>";
             echo "</div>";
             ?>
