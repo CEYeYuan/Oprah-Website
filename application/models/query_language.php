@@ -18,8 +18,7 @@ class Query_language extends CI_Model{
 		$sql_m="(select * from language where  1=1";
 		
 		for ($i=0;$i<$count0;$i++){
-			if ($i==0){
-				if ($type[$i]!=''){
+			if ($type[$i]!=''){
 				if ($type[$i]!='Others'){
 					$tmp='%'.$type[$i].'%';
 					$sql_m=$sql_m." and type like '$tmp' ";
@@ -27,19 +26,7 @@ class Query_language extends CI_Model{
 					$tmp=" and type not like '%Native%' and type not like '%Loanwords%'";
 					$sql_m=$sql_m.$tmp;
 				}	
-				}
-			}else{
-				if ($type[$i]!=''){
-				if ($type[$i]!='Others'){
-					$tmp='%'.$type[$i].'%';
-					$sql_m=$sql_m." or type like '$tmp' ";
-				}else{
-					$tmp=" or type not like '%Native%' or type not like '%Loanwords%'";
-					$sql_m=$sql_m.$tmp;
-				}	
 			}
-			}
-			
 		}
 		
 		for ($j=0;$j<$count1;$j++){
