@@ -18,6 +18,20 @@
         <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
         <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
         <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+        <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="../../dist/js/bootstrap.min.js"></script>
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("#inputSearch").focus();
+            })
+     
+            function f1(input){
+              input.href="<?php echo base_url();?>main/reference";
+            }
+        </script>
         <title>Query Result</title>
         <?php $this->load->view('header');?>
     </head>
@@ -30,7 +44,7 @@
                 <div class="row-fluid">
                     <div class="form-group">
                         <div class="input-group ">
-                            <input type="text" class="form-control " placeholder="Search" 
+                            <input type="text" class="form-control " placeholder="Search" id="inputSearch"
                             name="content" >
                             <span class="input-group-btn col-lg-offset-4"><button type="submit" class="btn btn-success">Search</button></span>
                         </div>
@@ -42,6 +56,8 @@
         <div class="jumbotron">
             <div class="container">
                 </br>
+
+    
 
     
         <?php 

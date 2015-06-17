@@ -48,46 +48,9 @@ class Main extends CI_Controller {
 
 	}
 
-	
-	public function login_validation(){
-
-		$this->load->library('form_validation');
-
-		$this->form_validation->set_rules('email','Email','
-			required|trim|xss_clean|callback_validate_credientials');
-		//'email' is the input form name, while 'Email' is the name when the web gives
-		//feedback on login information
-		$this->form_validation->set_rules('password','Password','required|md5|trim');
- 
-		if ($this->form_validation->run()){
-			//if the username/password pass the validation test
-			
-			// load the model
-			$this->load->model('model_users');
-			
-			// get the username from the form
-			
-			$data=array(
-				'username'=>$this->input->post('email'),
-				'is_logged_in'=>1
-				);			
-			$this->session->set_userdata($data);
-			//session is constructed with the input form name 'email'
-
-			//redirect ('index.php/welcome');
-			//redirect ('index.php/home');
-			$this->load->view('home_view');
-		} else{
-			
-			$this->index();
-			//if the validation test failed, redirect to the 'restricted page'
-		}
-
+	public function reference(){
+		$this->load->view("search");
 	}
-	
-	
-
-
 	
 }
 	
