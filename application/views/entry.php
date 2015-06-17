@@ -82,8 +82,11 @@
             
             echo "<p style='text-align:left;font-size:12pt'><b>Source:</b>&nbsp".$source."</p>";
             echo "<p style='text-align:left;font-size:12pt'><b>Description:</b>&nbsp".$description."</p>";
-            echo "<p style='text-align:left;font-size:12pt'><b>Derivational:</b>&nbsp";
-                if(strlen($derivational)>=50){
+            echo "<p style='text-align:left;font-size:12pt'><b>Derivational Suffixes: </b>&nbsp";
+            echo $dtrigger;
+            echo "</p>";
+            echo "<p>";
+                if(strlen($derivational)>=1){
                  $regexp = '/\G(?:"[^"]*"|\'[^\']*\'|[^"\'\s]+)*\K\s+/';
                   $de = preg_split($regexp, $derivational);
 
@@ -108,9 +111,12 @@
                 }else
                 echo $derivational;
             echo "</p>";
-            echo "<p style='text-align:left;font-size:12pt'><b>Inflectional:</b>&nbsp";
+            echo "<p style='text-align:left;font-size:12pt'><b>Inflectional Suffixes:</b>&nbsp";
+            echo $itrigger;
+            echo "</p>";
+            echo "<p>";
             
-            if(strlen($inflectional)>=50){
+            if(strlen($inflectional)>=1){
                  $regexp = '/\G(?:"[^"]*"|\'[^\']*\'|[^"\'\s]+)*\K\s+/';
                   $example = preg_split($regexp, $inflectional);
 
@@ -136,8 +142,11 @@
                 echo $inflectional;
             echo "</p>";
             echo "<p style='text-align:left;font-size:12pt'><b>Prefixes:</b>&nbsp";
+            echo $ptrigger;
+            echo "</p>";
+            echo "<p>";
            
-            if( strlen($prefixes)>=50){
+            if( strlen($prefixes)>=1){
                  $regexp = '/\G(?:"[^"]*"|\'[^\']*\'|[^"\'\s]+)*\K\s+/';
                   $example = preg_split($regexp, $prefixes);
 

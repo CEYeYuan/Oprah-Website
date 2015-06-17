@@ -70,9 +70,9 @@
 							<input type="checkbox" name="type[]" value="Others"/> Others
 							<br/>
 							<b>Affixes  triggers: &nbsp &nbsp</b>
-							<input type="checkbox" name="affixes[]" value='derivational'/> Derivational  &nbsp &nbsp
-							<input type="checkbox" name="affixes[]" value='inflectional'/> Inflectional &nbsp &nbsp
-							<input type="checkbox" name="affixes[]" value='prefixes'/> Prefixes &nbsp &nbsp
+							<input type="checkbox" name="affixes[]" value='dtrigger'/> Derivational  &nbsp &nbsp
+							<input type="checkbox" name="affixes[]" value='itrigger'/> Inflectional &nbsp &nbsp
+							<input type="checkbox" name="affixes[]" value='ptrigger'/> Prefixes &nbsp &nbsp
 							<input type="checkbox" name="affixes[]" value='infixes'/> Infixes
 							<br/>
 							

@@ -30,6 +30,9 @@ class Main extends CI_Controller {
 		$result=$this->query_language->query_byid($id);
 		$data['title']=$result->row()->title;
 		$data['name']=$result->row()->name;
+		$data['dtrigger']=$result->row()->dtrigger;
+		$data['itrigger']=$result->row()->itrigger;
+		$data['ptrigger']=$result->row()->ptrigger;
 		$data['type']=$result->row()->type;
 		$data['examples']=$result->row()->examples;
 		$data['source']=$result->row()->source;
