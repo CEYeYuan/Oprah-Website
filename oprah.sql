@@ -35,25 +35,24 @@ CREATE TABLE language (
 insert into language (title,name,type,examples,source,description,dtrigger,derivational,itrigger,
 	inflectional,ptrigger,prefixes,infixes,variation,frequency,extent)
  values("R-nativization in Slovenian","Slovenian",
-"Loanwords (English)","ɹɔk	'rock'		ˈɾok-oma	'instrumental.dual'
+"Loanwords (English)","ɹɔk	'rock'	ˈɾok-oma	'instrumental.dual'
 ˈɹɔbin	'Robin'	ˈɾobin-u	'locative.singular'
 ˈɹɛgan	'Reagan'	ˈɾegan-i	'nominative.plural'
 foɹt	'Ford'	ˈfoɾd-iʧ	'diminutive'
-maɹk	'Marc'	ˈmaɾk-ʦ-a	'diminutive-genitive.singular'","<a onclick='f1(this);' href=“/references”>Jurgec 2015</a>, <a onclick='f1(this);' href=“/references”>Torporišič 1976/2000</a>"
+maɹk	'Marc'	ˈmaɾk-ow	'possesive'","<a onclick='f1(this);' href=“/references”>Jurgec 2015</a>, <a onclick='f1(this);' href=“/references”>Torporišič 1976/2000</a>"
 ,'Slovenian variantly allows [ɹ] in bare roots of recent loanwords from English. In affixed words, [ɹ] is nativized into [ɾ] (or another native rhotic). ',"Triggers",
-"ˈɹɔbin	'Robin'	ˈɾobin-ux	'pejorative'
+"ˈɹɔbin	'Robin'	ɾobiˈn-ux	'pejorative'
 ˈɹɛgan	'Reagan'	ˈɾegan-ʧək	'diminutive'
 ˈbaɹak	'Barack'	ˈbaɾak-əʦ	'diminutive'
 ɹɔn	'Ron'		ɾoˈn-ist	'-like'
-maɹk	'Marc'	ˈmaɾk-əʦ	'diminutive'
-","Triggers","ˈɹɔbin	'Robin'	ˈɾobin-u	'locative.singular'
+maɹk	'Marc'	ˈmaɾk-əʦ	'diminutive'","Triggers","ˈɹɔbin	'Robin'	ˈɾobin-u	'locative.singular'
 ˈɹɛgan	'Reagan'	ˈɾegan-i	'nominative.plural'
 ˈbaɹak	'Barack'	ˈbaɾak-a	'genitive.singular'
 ɹɔn	'Ron'		ˈɾon-oma	'dative.dual'
 maɹk	'Marc'	ˈmaɾk-ix	'locative.plural'
 ","Triggers","ɹɔk	'rock'		ˈanti-ˈɾok	'anti-'
-ˈɹɔbin	'Robin'	ˈpOd-ˈɾɔbin		'sub-'
-ˈɹɛgan	'Reagan'	ˈnʌdˈ-ɾɛgan	'uber-'",'no data (no infixation reported)',"Regularization possible in non-derived environments.",'unknown','unknown');
+ˈɹɔbin	'Robin'	ˈpɔd-ˈɾɔbin		'sub-'
+ˈɹɛgan	'Reagan'	ˈnʌdˈ-ɾɛgan	'uber-'",'No data (no infixation reported)',"Regularization possible in non-derived environments.",'Unknown','Unknown');
 
 insert into language (title,name,type,examples,source,description,dtrigger,derivational,itrigger,
 	inflectional,ptrigger,prefixes,infixes,variation,frequency,extent) values("W-nativization in Slovenian","Slovenian","Loanwords (English)",
@@ -66,8 +65,8 @@ swiŋk	'swing'	ˈsʋiŋg-a-ti	'verb-infintive'",
 "Slovenian variantly allows onset [w] in bare roots of recent loanwords from English. In affixed words, [w] is nativized into [ʋ]. Note that the distribution of v-allophones is complex in Slovenian; [w] is well-formed in codas.",
 "Triggers","","Triggers","","Triggers","ˈwɔʃiŋktən	'Washington'		ˈnɛ-ˈʋaʃiŋkron	'non-'
 ˈwilsən	'Wilson'		ˈpɾaˈ-ʋilson	'old/grand-'
-ˈwajlt	'Wilde'	supeɾ-ˈʋajlt	'super-'"," no data (no infixation reported)","Regularization possible in non-derived environments",
- "unknown","unknown");
+ˈwajlt	'Wilde'	supeɾ-ˈʋajlt	'super-'"," No data (no infixation reported)","Regularization possible in non-derived environments",
+ "Unknown","Unknown");
 
 insert into language (title,name,type,examples,source,description,dtrigger,derivational,itrigger,
 	inflectional,ptrigger,prefixes,infixes,variation,frequency,extent) values("H-regularization in Slovenian","Slovenian","Onomatopoeia","hiˈhi	'hee hee'	xixi-ˈta	'she/he/it giggles'
@@ -76,8 +75,8 @@ həm	'sigh'	ˈxəm-k-a	'she/he/it sighs'
 heˈhɛʔ 'haha'	xeˈxɛ-t	'snickering'
 haˈhaʔ 'haha'	xax-ˈlj-a	'she/he/it snickers'
 hɔps 'jump'	ˈxɔps-a	'she/he/it jumps'","<a onclick='f1(this);' href=“/references”>Weiss 1998</a>, <a onclick='f1(this);' href=“/references”>Jurgec 2015</a>",
-"Slovenian mimetic words can contain [h], but the sound is changed to [x] in derived words.","Triggers","","no data","","no data","","no data (no infixation reported)","Regularization extremely unusual in non-derived environments",
-"unknown","unknown");
+"Slovenian mimetic words can contain [h], but the sound is changed to [x] in derived words.","Triggers","","No data","","No data","","No data (no infixation reported)","Regularization extremely unusual in non-derived environments",
+"Unknown","Unknown");
 
 insert into language (title,name,type,examples,source,description,dtrigger,derivational,itrigger,
 	inflectional,ptrigger,prefixes,infixes,variation,frequency,extent) values("Front vowel nativization in Slovenian","Slovenian","Loanwords (German, French, Slovenian dialects)",
@@ -92,13 +91,13 @@ tyɾk	'Türk (name)'	ˈtiɾk-om	'instrumental.singular'
 ˈʦyɾix 	'Zurich'	ˈʦiɾix-a	'genitive.singular'	
 ","<a onclick='f1(this);' href=“/references”>Jurgec 2015</a>, <a onclick='f1(this);' href=“/references”>Jurgec 2010</a>, <a onclick='f1(this);' href=“/references”>Torporišič 1976/2000</a>",
 "Slovenian variantly allows front round vowels in bare roots of some German or dialectal loanwords. In affixed words, round vowels are typically replaced by their unrounded counterparts. In some cases, back rounded vowels a preferred repair instead.",
-"Triggers","","Triggers","","Triggers","","no data (no infixation reported)","Regularization possible in non-derived environments","unknown","unknown");
+"Triggers","","Triggers","","Triggers","","No data (no infixation reported)","Regularization possible in non-derived environments","Unknown","Unknown");
 
 insert into language (title,name,type,examples,source,description,dtrigger,derivational,itrigger,
 	inflectional,ptrigger,prefixes,infixes,variation,frequency,extent) values("Initial s-clusters in Spanish","Spanish","Loanwords (English)",
 	"skajp	‘Skype’		eskajp(e)s ‘plural’
 	skejt	‘skate’		eskejtar	‘to skate’","Violeta Martinez-Paricio, p.c.","sC clusters are illicit in Spanish, but can occur in recent loanwords. When the loanwords are derived, e is epenthesized, in accordance with the native phonology.",
-	"Triggers","","Triggers","","unknown","","none","Regularization possible in non-derived environments","unknown","unknown");
+	"Triggers","","Triggers","","Unknown","","None","Regularization possible in non-derived environments","Unknown","Unknown");
 
 
 insert into language (title,name,type,examples,source,description,dtrigger,derivational,itrigger,
@@ -108,14 +107,14 @@ insert into language (title,name,type,examples,source,description,dtrigger,deriv
 kəˈθaʎə	'cazalla, liquor' 	kəsəˈʎɛt	'diminutive'
 θəɾˈθwelə	'zarzuella, operetta' 	səɾswəˈlat	'zarzuella-like’",
 "<a onclick='f1(this);' href=“/references”>Mascaró 2003</a>",
-"Catalan allows [θ] in some Spanish loanwords, as long as they are not derived in which case [s] surfaces instead.","Triggers","","Not triggers (Francesc Torres-Tamarit, p.c.)","","unknown","","no data","Regularization unusual in non-derived environments (Francesc Torres-Tamarit, p.c.), but attested (Joan Mascaro, p.c.).","unknown","This is a productive process in Catalan for most speakers. Elderly speakers may have only s-forms.");
+"Catalan allows [θ] in some Spanish loanwords, as long as they are not derived in which case [s] surfaces instead.","Triggers","","Not triggers (Francesc Torres-Tamarit, p.c.)","","Unknown","","No data","Regularization unusual in non-derived environments (Francesc Torres-Tamarit, p.c.), but attested (Joan Mascaro, p.c.).","Unknown","This is a productive process in Catalan for most speakers. Elderly speakers may have only s-forms.");
 
 
 insert into language (title,name,type,examples,source,description,dtrigger,derivational,itrigger,
 	inflectional,ptrigger,prefixes,infixes,variation,frequency,extent) values(
 "Mid vowels in Catalan","Catalan","Loanwords","ˈboston	'Boston'	bustunˈja	'Bostonian'",
 "<a onclick='f1(this);' href=“/references”>Mascaró 1978</a>","Catalan allows mid vowels {e, ɛ, o, ɔ} in unstressed positions only in some loanwords. When derived, some of these words show regularization in which the vowels must map to licit unstressed vowels. Not all words regularize (e.g. hoˈmeɾ 'Homer' ~ homɛɾ-ik 'Homeric').",
-"Triggers","", "unknown","","unknown","","no data","Regularization impossible in non-derived environments. Some words do not show regularization.","unknown","unknown");
+"Triggers","", "Unknown","","Unknown","","No data","Regularization impossible in non-derived environments. Some words do not show regularization.","Unknown","Unknown");
 
 insert into language (title,name,type,examples,source,description,dtrigger,derivational,itrigger,
 	inflectional,ptrigger,prefixes,infixes,variation,frequency,extent) values(
@@ -132,7 +131,7 @@ Flo[ɹ]ida	'Florida'	Flo[ɹ]ida-[s]	'plural'","Not triggers","Op[ɹ]ah	'Oprah'	H
 Ba[ɹ]ack	'Barack'	Quasi-Ba[ɹ]ack	'Quasi-'	
 Flo[ɹ]ida	'Florida'	Wan-flo[ɹ]ida	'bad'	
 [ɹ]eading	'Reading (town)'	Hoofd-[ɹ]eading	 'main, true'",
-"no data","Regularization possible in non-derived environments","unknown","unknown"
+"no data","Regularization possible in non-derived environments","Unknown","Unknown"
 );
 
 insert into language (title,name,type,examples,source,description,dtrigger,derivational,itrigger,
@@ -142,7 +141,7 @@ insert into language (title,name,type,examples,source,description,dtrigger,deriv
 lə pəti itlɛʁ 'the little Hitler'	œ̃ pətit itleʁjɛ̃	'a little follower of Hitler'",
 "<a onclick='f1(this);' href=“/references”>Kiparsky 1973</a>:89, <a onclick='f1(this);' href=“/references”>Kiparsky 1993</a>",
 "French h-aspiré words begin with a phonetic vowel, they pattern with words that begin with a consonant, allowing the preceding words to end in a vowel. There is a tendency for h-aspiré behavior to be lost in derived words.",
-"Triggers","", "unknown","","unknown","","no data","No variation","unknown","few words"
+"Triggers","", "Unknown","","Unknown","","no data","No variation","Unknown","few words"
 );
 
 insert into language (title,name,type,examples,source,description,dtrigger,derivational,itrigger,
@@ -152,7 +151,7 @@ insert into language (title,name,type,examples,source,description,dtrigger,deriv
 ɹobɛɹʦ	‘Roberts’	robɛrʦ:-ɛl	‘comitative’
 kɛɹol	‘Carol’ 	kɛrol-ok	‘plural’
 ɹiki	‘Ricky’ 	riki-nɛk	‘dative’",
-"Andrea Márkus, p.c.","Some Hungarian speakers allow the English [ɹ] in some foreign roots. When derived, the rhotic must nativize.","Triggers","","No data","","No data","","Only some speakers show the pattern.","unknown","Only recent loanwords (Éva Dékány, p.c.)","");
+"Andrea Márkus, p.c.","Some Hungarian speakers allow the English [ɹ] in some foreign roots. When derived, the rhotic must nativize.","Triggers","","No data","","No data","","Only some speakers show the pattern.","Unknown","Only recent loanwords (Éva Dékány, p.c.)","");
 
 insert into language (title,name,type,examples,source,description,dtrigger,derivational,itrigger,
 	inflectional,ptrigger,prefixes,infixes,variation,frequency,extent) values("f-nativization in Tagalog","Tagalog","Loanwords (Spanish)",
