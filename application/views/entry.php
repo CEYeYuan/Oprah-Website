@@ -63,11 +63,11 @@
         <?php 
          
             echo "<div style='text-align:center'>";
-            echo "<p style='text-align:left;font-size:12pt'><b>Title:</b>&nbsp".$title."</p>";
-            echo "<p style='text-align:left;font-size:12pt'><b>Language:</b>&nbsp".$name."</p>";
-            echo "<p style='text-align:left;font-size:12pt'><b>Type:</b>&nbsp".$type."</p>";
+            echo "<p style='text-align:left;font-size:12pt;color:#000000'><b>Title:</b>&nbsp".$title."</p>";
+            echo "<p style='text-align:left;font-size:12pt;color:#000000'><b>Language:</b>&nbsp".$name."</p>";
+            echo "<p style='text-align:left;font-size:12pt;color:#000000'><b>Type:</b>&nbsp".$type."</p>";
 
-            echo "<p style='text-align:left;font-size:12pt'><b>Examples:</b>";
+            echo "<p style='text-align:left;font-size:12pt;color:#000000'><b>Examples:</b>";
            // $example = preg_split("/[\s,]+/",$examples);
             $regexp = '/\G(?:"[^"]*"|\'[^\']*\'|[^"\'\s]+)*\K\s+/';
 
@@ -86,19 +86,19 @@
             for ($x=0;4*$x+3<$i;$x++){
                 echo "<tr>";
                 echo "<p >";
-                echo "<td style='text-align:left;font-size:12pt'>".$example[4*$x]."</td>";
-                echo "<td style='text-align:left;font-size:12pt'>".$example[4*$x+1]."</td>";
-                echo "<td style='text-align:left;font-size:12pt'>".$example[4*$x+2]."</td>";
-                echo "<td style='text-align:left;font-size:12pt'>".$example[4*$x+3]."</td>";
+                echo "<td style='text-align:left;font-size:12pt;color:#000000'>".$example[4*$x]."</td>";
+                echo "<td style='text-align:left;font-size:12pt;color:#000000'>".$example[4*$x+1]."</td>";
+                echo "<td style='text-align:left;font-size:12pt;color:#000000'>".$example[4*$x+2]."</td>";
+                echo "<td style='text-align:left;font-size:12pt;color:#000000'>".$example[4*$x+3]."</td>";
                 echo "</tr>";
                 echo "</p >";
             }
             echo "</table>";
             echo "</p>";
             
-            echo "<p style='text-align:left;font-size:12pt'><b>Source:</b>&nbsp".$source."</p>";
-            echo "<p style='text-align:left;font-size:12pt'><b>Description:</b>&nbsp".$description."</p>";
-            echo "<p style='text-align:left;font-size:12pt'><b>Derivational Suffixes: </b>&nbsp";
+            echo "<p style='text-align:left;font-size:12pt;color:#000000'><b>Source:</b>&nbsp".$source."</p>";
+            echo "<p style='text-align:left;font-size:12pt;color:#000000'><b>Description:</b>&nbsp".$description."</p>";
+            echo "<p style='text-align:left;font-size:12pt;color:#000000'><b>Derivational Suffixes: </b>&nbsp";
             echo $dtrigger;
             echo "</p>";
             echo "<p>";
@@ -115,10 +115,10 @@
             for ($x=0;4*$x+3<$i;$x++){
                 echo "<tr>";
                 echo "<p >";
-                echo "<td style='text-align:left;font-size:12pt'>".$de[4*$x]."</td>";
-                echo "<td style='text-align:left;font-size:12pt'>".$de[4*$x+1]."</td>";
-                echo "<td style='text-align:left;font-size:12pt'>".$de[4*$x+2]."</td>";
-                echo "<td style='text-align:left;font-size:12pt'>".$de[4*$x+3]."</td>";
+                echo "<td style='text-align:left;font-size:12pt;color:#000000'>".$de[4*$x]."</td>";
+                echo "<td style='text-align:left;font-size:12pt;color:#000000'>".$de[4*$x+1]."</td>";
+                echo "<td style='text-align:left;font-size:12pt;color:#000000'>".$de[4*$x+2]."</td>";
+                echo "<td style='text-align:left;font-size:12pt;color:#000000'>".$de[4*$x+3]."</td>";
                 echo "</tr>";
                 echo "</p >";
             }
@@ -127,7 +127,7 @@
                 }else
                 echo $derivational;
             echo "</p>";
-            echo "<p style='text-align:left;font-size:12pt'><b>Inflectional Suffixes:</b>&nbsp";
+            echo "<p style='text-align:left;font-size:12pt;color:#000000'><b>Inflectional Suffixes:</b>&nbsp";
             echo $itrigger;
             echo "</p>";
             echo "<p>";
@@ -145,10 +145,10 @@
             for ($x=0;4*$x+3<$i;$x++){
                 echo "<tr>";
                 echo "<p >";
-                echo "<td style='text-align:left;font-size:12pt'>".$example[4*$x]."</td>";
-                echo "<td style='text-align:left;font-size:12pt'>".$example[4*$x+1]."</td>";
-                echo "<td style='text-align:left;font-size:12pt'>".$example[4*$x+2]."</td>";
-                echo "<td style='text-align:left;font-size:12pt'>".$example[4*$x+3]."</td>";
+                echo "<td style='text-align:left;font-size:12pt;color:#000000'>".$example[4*$x]."</td>";
+                echo "<td style='text-align:left;font-size:12pt;color:#000000'>".$example[4*$x+1]."</td>";
+                echo "<td style='text-align:left;font-size:12pt;color:#000000'>".$example[4*$x+2]."</td>";
+                echo "<td style='text-align:left;font-size:12pt;color:#000000'>".$example[4*$x+3]."</td>";
                 echo "</tr>";
                 echo "</p>";
             }
@@ -157,7 +157,7 @@
                 }else
                 echo $inflectional;
             echo "</p>";
-            echo "<p style='text-align:left;font-size:12pt'><b>Prefixes:</b>&nbsp";
+            echo "<p style='text-align:left;font-size:12pt;color:#000000'><b>Prefixes:</b>&nbsp";
             echo $ptrigger;
             echo "</p>";
             echo "<p>";
@@ -175,10 +175,10 @@
             for ($x=0;4*$x+3<$i;$x++){
                 echo "<tr>";
                 echo "<p >";
-                echo "<td style='text-align:left;font-size:12pt'>".$example[4*$x]."</td>";
-                echo "<td style='text-align:left;font-size:12pt'>".$example[4*$x+1]."</td>";
-                echo "<td style='text-align:left;font-size:12pt'>".$example[4*$x+2]."</td>";
-                echo "<td style='text-align:left;font-size:12pt'>".$example[4*$x+3]."</td>";
+                echo "<td style='text-align:left;font-size:12pt;color:#000000'>".$example[4*$x]."</td>";
+                echo "<td style='text-align:left;font-size:12pt;color:#000000'>".$example[4*$x+1]."</td>";
+                echo "<td style='text-align:left;font-size:12pt;color:#000000'>".$example[4*$x+2]."</td>";
+                echo "<td style='text-align:left;font-size:12pt;color:#000000'>".$example[4*$x+3]."</td>";
                 echo "</tr>";
                 echo "</p >";
             }
@@ -187,7 +187,7 @@
                 }else
                 echo $prefixes;
             echo "</p>";
-            echo "<p style='text-align:left;font-size:12pt'><b>Infixes:</b>&nbsp";
+            echo "<p style='text-align:left;font-size:12pt;color:#000000'><b>Infixes:</b>&nbsp";
              if( strlen($infixes)>=50){
                  $regexp = '/\G(?:"[^"]*"|\'[^\']*\'|[^"\'\s]+)*\K\s+/';
                   $example = preg_split($regexp, $infixes);
@@ -201,10 +201,10 @@
             for ($x=0;4*$x+3<$i;$x++){
                 echo "<tr>";
                 echo "<p >";
-                echo "<td style='text-align:left;font-size:12pt'>".$example[4*$x]."</td>";
-                echo "<td style='text-align:left;font-size:12pt'>".$example[4*$x+1]."</td>";
-                echo "<td style='text-align:left;font-size:12pt'>".$example[4*$x+2]."</td>";
-                echo "<td style='text-align:left;font-size:12pt'>".$example[4*$x+3]."</td>";
+                echo "<td style='text-align:left;font-size:12pt;color:#000000'>".$example[4*$x]."</td>";
+                echo "<td style='text-align:left;font-size:12pt;color:#000000'>".$example[4*$x+1]."</td>";
+                echo "<td style='text-align:left;font-size:12pt;color:#000000'>".$example[4*$x+2]."</td>";
+                echo "<td style='text-align:left;font-size:12pt;color:#000000'>".$example[4*$x+3]."</td>";
                 echo "</tr>";
                 echo "</p >";
             }
@@ -213,12 +213,12 @@
                 }else
                 echo $infixes;
             echo "</p>";
-            echo "<p style='text-align:left;font-size:12pt'><b>Variation:</b>&nbsp".$variation."</p>";
-            echo "<p style='text-align:left;font-size:12pt'><b>Frequency:</b>&nbsp";
+            echo "<p style='text-align:left;font-size:12pt;color:#000000'><b>Variation:</b>&nbsp".$variation."</p>";
+            echo "<p style='text-align:left;font-size:12pt;color:#000000'><b>Frequency:</b>&nbsp";
             if($name!='Tagalog')
                 echo  $frequency;
             else{
-                echo "<p style='text-align:left;font-size:12pt'>";
+                echo "<p style='text-align:left;font-size:12pt;color:#000000'>";
                 echo "Corpus data available.";
                 echo "</p>";
                $str="filipino 20,074        pilipino 12,011 
@@ -238,21 +238,21 @@
             for ($x=0;4*$x+3<$i;$x++){
                 echo "<tr>";
                 echo "<p >";
-                echo "<td style='text-align:left;font-size:12pt'>".$example[4*$x]."</td>";
-                echo "<td style='text-align:left;font-size:12pt'>".$example[4*$x+1]."</td>";
-                echo "<td style='text-align:left;font-size:12pt'>".$example[4*$x+2]."</td>";
-                echo "<td style='text-align:left;font-size:12pt'>".$example[4*$x+3]."</td>";
+                echo "<td style='text-align:left;font-size:12pt;color:#000000'>".$example[4*$x]."</td>";
+                echo "<td style='text-align:left;font-size:12pt;color:#000000'>".$example[4*$x+1]."</td>";
+                echo "<td style='text-align:left;font-size:12pt;color:#000000'>".$example[4*$x+2]."</td>";
+                echo "<td style='text-align:left;font-size:12pt;color:#000000'>".$example[4*$x+3]."</td>";
                 echo "</tr>";
                 echo "</p >";
             }
             echo "</table>";
             echo "</p>";
             }
-            echo "<p style='text-align:left;font-size:12pt'>";
+            echo "<p style='text-align:left;font-size:12pt;color:#000000'>";
             echo "F-variants are about twice as frequent as p-variants in the non-affixed words. F-variants are rare in affixed words.";
             echo "</p>";  
             echo "</p>";
-            echo "<p style='text-align:left;font-size:12pt'><b>Extent:</b>&nbsp".$extent."</p>";
+            echo "<p style='text-align:left;font-size:12pt;color:#000000'><b>Extent:</b>&nbsp".$extent."</p>";
             echo "</div>";
             ?>
                 </div>
