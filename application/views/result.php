@@ -26,8 +26,74 @@
         </script>
         <title>Query Result</title>
         <?php $this->load->view('header');?>
+        <script>
+
+        // an XMLHttpRequest
+        var xhr = null;
+
+        /*
+         * void
+         * quote()
+         *
+         * Gets a quote.
+         */
+        function quote()
+        {
+            // instantiate XMLHttpRequest object
+            try
+            {
+                xhr = new XMLHttpRequest();
+            }
+            catch (e)
+            {
+                xhr = new ActiveXObject("Microsoft.XMLHTTP");
+            }
+
+            // handle old browsers
+            if (xhr == null)
+            {
+                alert("Ajax not supported by your browser!");
+                return;
+            }
+
+            // get symbol
+            var symbol = document.getElementById("searchField").value;
+
+            // construct URL
+            var url = "main/query?content=" + symbol;
+
+            // get quote
+            xhr.onreadystatechange =
+            function()
+            {
+                // only handle loaded requests
+                if (xhr.readyState == 4)
+                {
+                    if (xhr.status == 200)
+                    {
+                        // evaluate JSON
+                        var quote = eval("(" + xhr.responseText + ")");
+
+                        // show JSON in textarea
+                        document.getElementById("all").value = xhr.responseText;
+
+                        // insert quote into DOM
+                        var div = document.createElement("div");
+                        var text = document.createTextNode(symbol + ": " + quote.price);
+                        div.appendChild(text);
+                        document.getElementById("quotes").appendChild(div);
+                    }
+                    else
+                        alert("Error with Ajax call!");
+                }
+            }
+            xhr.open("GET", url, true);
+            xhr.send(null);
+        }
+
+    </script>
     </head>
-    <body>
+    <body id="all">
         </br>
         </br>
         </br>

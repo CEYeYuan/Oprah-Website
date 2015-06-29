@@ -39,26 +39,20 @@
 	<body>
 		<!-- Main jumbotron for a primary marketing message or call to action -->
 		<div class="jumbotron">
-			<div class="container">
+			
 				</br>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+
+				<br/>
 				<div style="text-align:center">
-					<!-- <img src="<?php echo base_url();?>assets/img/linguistics_logo.jpg" alt="logo" /><-->
-				</div>
-				</br>
-				</br>
-				</br>
-				</br>
-				</br>
-				</br>
-				<p style="font-size:12pt"><b>About</b> 
-					The Oprah effect is an underdescribed phenomenon that involves an alternation anywhere in the root under affixation. For instance, some speakers of Dutch can pronounce the bare root <i>Oprah</i> with the English rhotic, while affixed words such as the diminutive <i>Oprahtje</i> must have the native Dutch rhotic. This is a searchable database of Oprah effects reported in world's languages. 
-				</p>
-				<p style="font-size:12pt"><b>Significance</b>
-					The Oprah effect is unlike most phonological patterns in that the alternating sound can be at any distance from the affix. As we will see, these sounds may differ in what kind of morphologically complex words they appear, both within a single language and across languages. For example, some sounds are possible in suffixed, but not prefixed, words. Other sounds are possible in inflected, but not derived, words. We will also see that while the Oprah effect is particularly common in loanwords, it can be found in native words as well.
-				</p>
-				<p style="font-size:12pt"> You can search this database by entering keywords below. You can also search the database by specific criteria.</p>
-			</div>
-		</div>
+					<img src="<?php echo base_url();?>assets/img/background.jpg" alt="oprah winfrey" width=680 height=230/>
+			
+				
+
+		<div class="jumbotron">
 		<div  class="input-group">
 			<form id="frmOptions" method="get" class="span12 col-lg-4 col-lg-offset-4" action='<?php echo base_url();?>main/query'>
 				<div class="row-fluid">
@@ -72,7 +66,7 @@
 
 						</div>
 
-
+						<div class="container">
 						<div style="font-size:12pt">
 							<br/>
 							<b>Type:  &nbsp &nbsp </b>
@@ -85,13 +79,32 @@
 							<input type="checkbox" name="affixes[]" value='itrigger'/> Inflectional &nbsp &nbsp
 							<input type="checkbox" name="affixes[]" value='ptrigger'/> Prefixes &nbsp &nbsp
 							<input type="checkbox" name="affixes[]" value='infixes'/> Infixes
-							<br/>
+						</div>	
 							
 						</div>
 					</div>
 				</div>
 			</form>
 		</div>
+		</div>
+	
+
+		</div>
+			
+			<div class="jumbotron">
+				<div class="container">
+				<p style="font-size:12pt"><b>About</b> 
+					The Oprah effect is an underdescribed phenomenon that involves an alternation anywhere in the root under affixation. For instance, some speakers of Dutch can pronounce the bare root <i>Oprah</i> with the English rhotic, while affixed words such as the diminutive <i>Oprahtje</i> must have the native Dutch rhotic. This is a searchable database of Oprah effects reported in world's languages. 
+				</p>
+				<p style="font-size:12pt"><b>Significance</b>
+					The Oprah effect is unlike most phonological patterns in that the alternating sound can be at any distance from the affix. As we will see, these sounds may differ in what kind of morphologically complex words they appear, both within a single language and across languages. For example, some sounds are possible in suffixed, but not prefixed, words. Other sounds are possible in inflected, but not derived, words. We will also see that while the Oprah effect is particularly common in loanwords, it can be found in native words as well.
+				</p>
+				<!--<p style="font-size:12pt"> You can search this database by entering keywords below. You can also search the database by specific criteria.</p><-->
+			</div>
+		</div>
+		</div>
+		</div>
+		
 		<!--/.navbar-collapse -->
 		<?php $this->load->view('footer');?>
 		<!-- Bootstrap core JavaScript

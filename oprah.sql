@@ -39,7 +39,7 @@ insert into language (title,name,type,examples,source,description,dtrigger,deriv
 ˈɹɔbin	'Robin'	ˈɾobin-u	'locative.singular'
 ˈɹɛgan	'Reagan'	ˈɾegan-i	'nominative.plural'
 foɹt	'Ford'	ˈfoɾd-iʧ	'diminutive'
-maɹk	'Marc'	ˈmaɾk-ʦ-a	'diminutive-genitive.singular'",'Jurgec 2015, Torporišič 1976/2000'
+maɹk	'Marc'	ˈmaɾk-ʦ-a	'diminutive-genitive.singular'","<a onclick='f1(this);' href=“/references”>Jurgec 2015</a>, <a onclick='f1(this);' href=“/references”>Torporišič 1976/2000</a>"
 ,'Slovenian variantly allows [ɹ] in bare roots of recent loanwords from English. In affixed words, [ɹ] is nativized into [ɾ] (or another native rhotic). ',"Triggers",
 "ˈɹɔbin	'Robin'	ˈɾobin-ux	'pejorative'
 ˈɹɛgan	'Reagan'	ˈɾegan-ʧək	'diminutive'
@@ -62,7 +62,7 @@ insert into language (title,name,type,examples,source,description,dtrigger,deriv
 ˈwajlt	'Wilde'	ˈʋajld-oʋ-a	'possesive-feminine.nominative.singular'
 twist	'twist'	ˈtʋist-om	'instrumental.singular'
 swiŋk	'swing'	ˈsʋiŋg-a-ti	'verb-infintive'",
-"Jurgec 2015, <a onclick='f1(this);' href=“/references”>Jurgec 2010</a>, <a onclick='f1(this);' href=“/references”>Toporišič 1976/2000</a>, <a onclick='f1(this);' href=“/references”>Tivadar 2004</a>:440",
+"Jurgec 2015, <a onclick='f1(this);' href=“/references”>Jurgec 2010</a>, <a onclick='f1(this);' href=“/references”>Toporišič 1976/2000</a>, <a onclick='f1(this);' href=“/references”>Tivadar 2004:440</a>",
 "Slovenian variantly allows onset [w] in bare roots of recent loanwords from English. In affixed words, [w] is nativized into [ʋ]. Note that the distribution of v-allophones is complex in Slovenian; [w] is well-formed in codas.",
 "Triggers","","Triggers","","Triggers","ˈwɔʃiŋktən	'Washington'		ˈnɛ-ˈʋaʃiŋkron	'non-'
 ˈwilsən	'Wilson'		ˈpɾaˈ-ʋilson	'old/grand-'

@@ -49,7 +49,7 @@ class Main extends CI_Controller {
 	}
 
 	public function reference(){
-		$this->load->view("search");
+		$this->load->view("reference");
 	}
 	
 }
