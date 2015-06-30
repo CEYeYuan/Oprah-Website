@@ -39,7 +39,7 @@ insert into language (title,name,type,examples,source,description,dtrigger,deriv
 ˈɹɔbin	'Robin'	ˈɾobin-u	'locative.singular'
 ˈɹɛgan	'Reagan'	ˈɾegan-i	'nominative.plural'
 foɹt	'Ford'	ˈfoɾd-iʧ	'diminutive'
-maɹk	'Marc'	ˈmaɾk-ow	'possesive'","<a onclick='f1(this);' href=“/references”>Jurgec 2015</a>, <a onclick='f1(this);' href=“/references”>Torporišič 1976/2000</a>"
+maɹk	'Marc'	ˈmaɾk-ow	'possesive'","<a onclick='f1(this);' href=“/references”>Jurgec 2010</a><a onclick='f1(this);' href=“/references”>Jurgec 2015</a>, <a onclick='f1(this);' href=“/references”>Torporišič 1976/2000</a>"
 ,'Slovenian variantly allows [ɹ] in bare roots of recent loanwords from English. In affixed words, [ɹ] is nativized into [ɾ] (or another native rhotic). ',"Triggers",
 "ˈɹɔbin	'Robin'	ɾobiˈn-ux	'pejorative'
 ˈɹɛgan	'Reagan'	ˈɾegan-ʧək	'diminutive'

@@ -35,8 +35,11 @@
 	<br/>
 	<br/>
 	<br/>
+	
 	<div class="jumbotron">
 		<div class="container">
+		<h2>Reference</h2>
+		<br/>	
 		<p style="font-size:12pt;color:#000000">Jurgec, Peter (2010). Disjunctive lexical stratification. <i>Linguistic Inquiry</i> 41. 149–161. [<a href="http://ling.auf.net/lingbuzz/000851">Prepublication version</a>]</p>
 		<p style="font-size:12pt;color:#000000">Jurgec, Peter (2014). Morphology affects loanword phonology. In Hsin-Lun Huang, Ethan Poole, and Amanda Rysling (eds.) <i>NELS 43: Proceedings of the 43rd Annual Meeting of the North East Linguistic Society</i>.Amherst, MA: GLSA. Vol. I:191–202. [<a href="http://ling.auf.net/lingbuzz/002175">Prepublication version</a>]</p>
 		<p style="font-size:12pt;color:#000000">Jurgec, Peter (2015). The Oprah Effect. Ms. University of Toronto. [Please, email for the manuscript.]</p>
@@ -52,6 +55,7 @@
 web as corpus</i>. Trento. 59–66.
 </p>
 		<p style="font-size:12pt;color:#000000"></p>
+		<p><a class="btn btn-primary btn-md" role="button" onclick="window.history.back();">Go Back</a></p>
 	
 		</div>
 		</div>

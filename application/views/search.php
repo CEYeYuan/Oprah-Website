@@ -40,24 +40,42 @@
 		<!-- Main jumbotron for a primary marketing message or call to action -->
 		<div class="jumbotron">
 			
-				</br>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-
-				<br/>
-				<div style="text-align:center">
-					<img src="<?php echo base_url();?>assets/img/background.jpg" alt="oprah winfrey" width=680 height=230/>
+		<div style="text-align:center">
 			
-				
-
+			
+			
 		<div class="jumbotron">
 		<div  class="input-group">
+
 			<form id="frmOptions" method="get" class="span12 col-lg-4 col-lg-offset-4" action='<?php echo base_url();?>main/query'>
 				<div class="row-fluid">
 					<div class="form-group">
+
+				</br>
+				<br/>
+				<br/>
+	
+
+				<br/>
+										<img src="<?php echo base_url();?>assets/img/oprah.jpg" alt="oprah winfrey" width=260 height=370 style="position: absolute;
+    right:640px;float:left"/>
+    <br/>
+				<br/>
+
+				<br/>
+   
+    <img src="<?php echo base_url();?>assets/img/oprah.jpg" alt="oprah winfrey" width=180 height=250 style="position: absolute;
+    left:650px;float:right"/>
+    </br>
+				<br/>
+				<br/>
+	
+
+				<br/>
+				
 						<div class="input-group ">
+
+
 							<input type="text" class="form-control " placeholder="Search"  id="searchInput"
 							name="content" >
 							<span class="input-group-btn col-lg-offset-4">
@@ -68,7 +86,9 @@
 
 						<div class="container">
 						<div style="font-size:12pt">
+	
 							<br/>
+							
 							<b>Type:  &nbsp &nbsp </b>
 							<input type="checkbox" name="type[]" value="Native"/> Native &nbsp &nbsp
 							<input type="checkbox" name="type[]" value="Loanwords"/> Loanwords &nbsp &nbsp
@@ -91,6 +111,14 @@
 
 		</div>
 			
+			</br>
+			
+	
+
+		
+	
+
+				<br/>
 			<div class="jumbotron">
 				<div class="container">
 				<p style="font-size:12pt"><b>About</b> 

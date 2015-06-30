@@ -98,7 +98,7 @@
             
             echo "<p style='text-align:left;font-size:12pt;color:#000000'><b>Source:</b>&nbsp".$source."</p>";
             echo "<p style='text-align:left;font-size:12pt;color:#000000'><b>Description:</b>&nbsp".$description."</p>";
-            echo "<p style='text-align:left;font-size:12pt;color:#000000'><b>Derivational Suffixes: </b>&nbsp";
+            echo "<p style='text-align:left;font-size:12pt;color:#000000'><b>Derivational suffixes: </b>&nbsp";
             echo $dtrigger;
             echo "</p>";
             echo "<p>";
@@ -127,7 +127,7 @@
                 }else
                 echo $derivational;
             echo "</p>";
-            echo "<p style='text-align:left;font-size:12pt;color:#000000'><b>Inflectional Suffixes:</b>&nbsp";
+            echo "<p style='text-align:left;font-size:12pt;color:#000000'><b>Inflectional suffixes:</b>&nbsp";
             echo $itrigger;
             echo "</p>";
             echo "<p>";
