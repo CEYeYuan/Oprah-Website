@@ -38,42 +38,24 @@
 	</head>
 	<body>
 		<!-- Main jumbotron for a primary marketing message or call to action -->
-		<div class="jumbotron">
-			
-		<div style="text-align:center">
-			
-			
-			
-		<div class="jumbotron">
-		<div  class="input-group">
-
-			<form id="frmOptions" method="get" class="span12 col-lg-4 col-lg-offset-4" action='<?php echo base_url();?>main/query'>
-				<div class="row-fluid">
-					<div class="form-group">
-
-				</br>
-				<br/>
-				<br/>
-	
-
-				<br/>
-										<img src="<?php echo base_url();?>assets/img/oprah.jpg" alt="oprah winfrey" width=260 height=370 style="position: absolute;
-    right:640px;float:left"/>
-    <br/>
-				<br/>
-
-				<br/>
+		
+<div class="container">
+  <div class="jumbotron">
+  <br/><br/><br/><br/><br/><br/>
    
-    <img src="<?php echo base_url();?>assets/img/oprah.jpg" alt="oprah winfrey" width=180 height=250 style="position: absolute;
-    left:650px;float:right"/>
-    </br>
-				<br/>
-				<br/>
-	
-
-				<br/>
-				
-						<div class="input-group ">
+   
+  
+  <div class="row">
+    <div class="col-sm-3">
+      <img src="<?php echo base_url();?>assets/img/oprah.jpg" alt="oprah winfrey" width=240px height=340px />
+      
+    </div>
+    <div class="col-sm-7">
+    <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/>
+    	<form  method="get" action='<?php echo base_url();?>main/query'>
+     <div class="input-group ">
+			
+			
 
 
 							<input type="text" class="form-control " placeholder="Search"  id="searchInput"
@@ -102,25 +84,18 @@
 						</div>	
 							
 						</div>
-					</div>
-				</div>
-			</form>
-		</div>
-		</div>
-	
+						</form>
+    </div>
+    <div class="col-sm-2">
+     <br/> <br/> <br/> <br/>
+      <img src="<?php echo base_url();?>assets/img/oprah.jpg" width=90px height=120px style="position:relative;top:40px" >       
+      
+    </div>
+  </div>
 
-		</div>
 			
-			</br>
-			
-	
-
 		
-	
-
-				<br/>
-			<div class="jumbotron">
-				<div class="container">
+				 <br/> <br/> <br/> <br/>
 				<p style="font-size:12pt"><b>About</b> 
 					The Oprah effect is an underdescribed phenomenon that involves an alternation anywhere in the root under affixation. For instance, some speakers of Dutch can pronounce the bare root <i>Oprah</i> with the English rhotic, while affixed words such as the diminutive <i>Oprahtje</i> must have the native Dutch rhotic. This is a searchable database of Oprah effects reported in world's languages. 
 				</p>
