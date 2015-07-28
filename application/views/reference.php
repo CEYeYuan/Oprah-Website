@@ -40,17 +40,23 @@
 		<div class="container">
 		<h2>Reference</h2>
 		<br/>	
-		<p style="font-size:12pt;color:#000000">Jurgec, Peter (2010). Disjunctive lexical stratification. <i>Linguistic Inquiry</i> 41. 149–161. [<a href="http://ling.auf.net/lingbuzz/000851">Prepublication version</a>]</p>
-		<p style="font-size:12pt;color:#000000">Jurgec, Peter (2014). Morphology affects loanword phonology. In Hsin-Lun Huang, Ethan Poole, and Amanda Rysling (eds.) <i>NELS 43: Proceedings of the 43rd Annual Meeting of the North East Linguistic Society</i>.Amherst, MA: GLSA. Vol. I:191–202. [<a href="http://ling.auf.net/lingbuzz/002175">Prepublication version</a>]</p>
+	
+		<p style="font-size:12pt;color:#000000">Jurgec, Peter (2010). Disjunctive lexical stratification. <i>Linguistic Inquiry</i> 41. 149–161. [<a href=“http://ling.auf.net/lingbuzz/000851”>Prepublication version</a>]</p>
+		<p style="font-size:12pt;color:#000000">Jurgec, Peter (2014). Morphology affects loanword phonology. In Hsin-Lun Huang, Ethan Poole, and Amanda Rysling (eds.) <i>NELS 43: Proceedings of the 43rd Annual Meeting of the North East Linguistic Society<i/>. Amherst, MA: GLSA. Vol. I:191–202. [<a href=“http://ling.auf.net/lingbuzz/002175”>Prepublication version</a>]</p>
 		<p style="font-size:12pt;color:#000000">Jurgec, Peter (2015). The Oprah Effect. Ms. University of Toronto. [Please, email for the manuscript.]</p>
 		<p style="font-size:12pt;color:#000000">Kiparsky, Paul (1973). Phonological representations. In Osamu, Fujimura (ed.) Three dimensions of linguistic theory. Tokyo: TEC. 1-136.</p>
 		<p style="font-size:12pt;color:#000000">Kiparsky, Paul (1993). Blocking in non-derived environments. In Sharon Hargus and Ellen M. Kaisse (eds.) Phonetics and phonology 4: Studies in Lexical Phonology. San Diego, CA: Academic Press. 277-313.</p>
 		<p style="font-size:12pt;color:#000000">Mascaró, Joan (1978). <i>Catalan phonology and the phonological cycle</i>. Bloomington, IN: Indiana University Linguistics Club. </p>
-		<p style="font-size:12pt;color:#000000">Mascaró, Joan (2003). Comparative markedness and derived environments. <i>Theoretical Linguistics</i> 29. 113–122.</p>
+		<p style="font-size:12pt;color:#000000">Mascaró, Joan (2003). Comparative markedness and derived environments. <i>Theoretical Linguistics<\i> 29. 113–122.</p>
+		<p style="font-size:12pt;color:#000000">McCarthy, John J. (2003). What does comparative markedness explain, what should it explain, and how? <i>Theoretical Linguistics</i> 29. 141–155.</p>
+		
 		<p style="font-size:12pt;color:#000000">Šeruga Prek, Cvetka & Emica Antončič (2003). <i>Slovenska zborna izreka: Priročnik z vajami za javne govorce.</i> Maribor: Aristej.</p>
-		<p style="font-size:12pt;color:#000000">Tivadar, Hotimir (2004). Podoba in funkcija govorjenega knjižnega jezika glede na neknjiˇzne zvrsti. In Erika Kržišnik (ed.) <i>Aktualizacija jezikovnozvrstne teorije na Slovenskem: Členitev jezikovne resničnosti</i>. Ljubljana: Center za slovenščino kot drugi/tuji jezik pri Oddelku za slovenistiko Filozofske fakultete. 437–452. [<a href="http://www.centerslo.net/files/File/simpozij/sim22/Tivadar.pdf">Full text</a>]</p>
+		<p style="font-size:12pt;color:#000000">Tivadar, Hotimir (2004). Podoba in funkcija govorjenega knjižnega jezika glede na neknjižne zvrsti. In Erika Kržišnik (ed.) <i>Aktualizacija jezikovnozvrstne teorije na Slovenskem: Členitev jezikovne resničnosti</i>. </p>
+		<p style="font-size:12pt;color:#000000">Ljubljana: Center za slovenščino kot drugi/tuji jezik pri Oddelku za slovenistiko Filozofske fakultete. 437–452. [<a href=“http://www.centerslo.net/files/File/simpozij/sim22/Tivadar.pdf”>Full text</a>]</p>
 		<p style="font-size:12pt;color:#000000">Toporišič, Jože (1976/2001). <i>Slovenska slovnica</i>. Maribor: Obzorja.</p>
 		<p style="font-size:12pt;color:#000000">Weiss, Peter (1998). <i>Slovar govorov Zadrečke doline med Gornjim gradom in Nazarjami</i>. Založba ZRC SAZU, ZRC SAZU. Ljubljana: 1998.</p>
+		<p style="font-size:12pt;color:#000000">Wolf, Matthew Adam (2008). Optimal Interleaving: Serial Phonology-Morphology Interaction in a Constraint-Based Model. Ph.D. dissertation, University of Massachusetts, Amherst. [<a href=“http://roa.rutgers.edu/files/996-1008/996-WOLF-0-0.PDF”>Rutgers Optimality Archive, ROA 996</a>]</p>
+		
 		<p style="font-size:12pt;color:#000000">Zuraw, Kie (2006). Using the web as a phonological corpus: A case study from Tagalog. In <i>EACL-2006: Proceedings of the 11th conference of the European chapter of the Association for computational linguistics/Proceedings of the 2nd International workshop on
 web as corpus</i>. Trento. 59–66.
 </p>

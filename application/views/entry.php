@@ -188,7 +188,7 @@
                 echo $prefixes;
             echo "</p>";
             echo "<p style='text-align:left;font-size:12pt;color:#000000'><b>Infixes:</b>&nbsp";
-             if( strlen($infixes)>=50){
+             if( strlen($infixes)>=65){
                  $regexp = '/\G(?:"[^"]*"|\'[^\']*\'|[^"\'\s]+)*\K\s+/';
                   $example = preg_split($regexp, $infixes);
 

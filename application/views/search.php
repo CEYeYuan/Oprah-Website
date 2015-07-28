@@ -100,8 +100,7 @@
 					The Oprah effect is an underdescribed phenomenon that involves an alternation anywhere in the root under affixation. For instance, some speakers of Dutch can pronounce the bare root <i>Oprah</i> with the English rhotic, while affixed words such as the diminutive <i>Oprahtje</i> must have the native Dutch rhotic. This is a searchable database of Oprah effects reported in world's languages. 
 				</p>
 				<p style="font-size:12pt"><b>Significance</b>
-					The Oprah effect is unlike most phonological patterns in that the alternating sound can be at any distance from the affix. As we will see, these sounds may differ in what kind of morphologically complex words they appear, both within a single language and across languages. For example, some sounds are possible in suffixed, but not prefixed, words. Other sounds are possible in inflected, but not derived, words. We will also see that while the Oprah effect is particularly common in loanwords, it can be found in native words as well.
-				</p>
+					The Oprah effect is unlike most phonological patterns in that the alternating sound can be at any distance from the affix. These sounds may differ in what kind of morphologically complex words they appear, both within a single language and across languages. For example, some sounds are possible in suffixed, but not prefixed, words. Other sounds are possible in inflected, but not derived, words. While the Oprah effect is particularly common in loanwords, it can be found in native words as well.	</p>
 				<!--<p style="font-size:12pt"> You can search this database by entering keywords below. You can also search the database by specific criteria.</p><-->
 			</div>
 		</div>

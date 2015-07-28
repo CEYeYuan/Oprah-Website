@@ -131,7 +131,7 @@ Flo[ɹ]ida	'Florida'	Flo[ɹ]ida-[s]	'plural'","Not triggers","Op[ɹ]ah	'Oprah'	H
 Ba[ɹ]ack	'Barack'	Quasi-Ba[ɹ]ack	'Quasi-'	
 Flo[ɹ]ida	'Florida'	Wan-flo[ɹ]ida	'bad'	
 [ɹ]eading	'Reading (town)'	Hoofd-[ɹ]eading	 'main, true'",
-"no data","Regularization possible in non-derived environments","Unknown","Unknown"
+"No data","Regularization possible in non-derived environments","Unknown","Unknown"
 );
 
 insert into language (title,name,type,examples,source,description,dtrigger,derivational,itrigger,
@@ -141,7 +141,7 @@ insert into language (title,name,type,examples,source,description,dtrigger,deriv
 lə pəti itlɛʁ 'the little Hitler'	œ̃ pətit itleʁjɛ̃	'a little follower of Hitler'",
 "<a onclick='f1(this);' href=“/references”>Kiparsky 1973</a>:89, <a onclick='f1(this);' href=“/references”>Kiparsky 1993</a>",
 "French h-aspiré words begin with a phonetic vowel, they pattern with words that begin with a consonant, allowing the preceding words to end in a vowel. There is a tendency for h-aspiré behavior to be lost in derived words.",
-"Triggers","", "Unknown","","Unknown","","no data","No variation","Unknown","few words"
+"Triggers","", "Unknown","","Unknown","","No data","No variation","Unknown","Few words"
 );
 
 insert into language (title,name,type,examples,source,description,dtrigger,derivational,itrigger,
@@ -168,3 +168,22 @@ affix+filipino 86	affix+pilipino 1,117
 fiesta 952	pista 416	
 affix+fiesta 27 ~ affix+pista 607
 F-variants are about twice as frequent as p-variants in the non-affixed words. F-variants are rare in affixed words.","It is unclear how many other words also exhibit the pattern. Loanwords of this kind may not have sufficient frequency in the corpus. (Kie Zuraw p.c.)");
+insert into language (title,name,type,examples,source,description,dtrigger,derivational,itrigger,
+	inflectional,ptrigger,prefixes,infixes,variation,frequency,extent) values(
+	"r-nativization in Canadian English","Canadian English","Loanwords (English)",
+	"film nwɑʀ	‘film noir’	nuwɑɹ-ɪst	‘noirist’
+kʀetjɛ̃	‘Chretién (name)’	kɹeɪtʃjɛn-z	‘possesive’
+menaʒ a tʀwɑ	ménage á trois’	meɪnɑʒ ɑ tɹwɑ-z	‘plural’
+o pɛʀ	‘au pair’	oʊpɛəɹ-z 	‘plural’
+mɔ̃ʀeal	‘Montreal’	mʌntɹiɑl-əɹ	‘Montrealer’","<a onclick='f1(this);' href=“/references”>McCarthy 2003</a>, <a onclick='f1(this);' href=“/references”>Wolf 2008</a>",
+"Canadian English speakers (and some American English speakers) can pronounce the French rhotic in certain loanwords, typically from Quebec French, as long as no suffix follows.",
+"Triggers","kʀetjɛ̃	‘Chretién (name)’	kɹeɪtʃjɛn-ɪzəm	‘Chretiénism’
+mɔ̃ʀeal	‘Montreal’	mʌntɹiɑl-əɹ	‘Montrealer’
+”,”Triggers	
+kʀetjɛ̃	‘Chretién (name)’	kɹeɪtʃjɛn-z	‘plural’
+mɔ̃ʀeal	‘Montreal’	mʌntɹiɑl-z	‘plural’","Not triggers	",
+	"kʀetjɛ̃	‘Chretién (name)’	æntaɪ-kʀetjɛ̃	‘anti-’
+mɔ̃ʀeal	‘Montreal’	nɒn-mɔ̃ʀeal	‘non-’","Triggers (must be non-initial)",
+"kʀetjɛ̃	‘Chretién (name)’	kɹeɪ<fʌkɪŋ>tʃjɛn	‘Chretién + expletive’	æntaɪ-fʌkɪŋ-kʀetjɛ̃	‘anti-Chretién + expletive’
+mɔ̃ʀeal	‘Montreal’	mʌntɹi<fʌkɪŋ>ɑl	‘Montreal + expletive’	nɒn-fʌkɪŋ—mɔ̃ʀeal	‘non-Montreal + expletive’ mɔ̃ʀeal	‘Montreal’	mʌntɹi<fʌkɪŋ>ɑl	‘Montreal + expletive’	nɒn-fʌkɪŋ—mɔ̃ʀeal	‘non-Montreal + expletive’",
+"Regularization possible in non-derived environments.","Rare words","Uknown","Uknown");
