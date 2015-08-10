@@ -76,7 +76,7 @@
             $i=count($example);
             echo "<table>";
             echo "<col width='110'>";
-            echo "<col width='180'>";
+            echo "<col width='250'>";
             echo "<col width='150'>";
             echo "<col width='400'>";
         
@@ -323,9 +323,9 @@
 
                  $i=count($example);
                 echo "<table>";
-                echo "<col width='110'>";
+                echo "<col width='150'>";
                 echo "<col width='180'>";
-                echo "<col width='110'>";
+                echo "<col width='150'>";
                 echo "<col width='500'>";
             if ($name!=='Canadian English'){    
             for ($x=0;4*$x+3<$i;$x++){
@@ -342,16 +342,32 @@
                  echo "<p >";
                         echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."kʀetjɛ̃"."</td>";
                         echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."‘Chretién (name)’"."</td>";
-                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."æntaɪ-kʀetjɛ̃"."</td>";
-                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."‘anti-’"."</td>";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."kɹeɪ-fʌkɪŋ-tʃjɛn"."</td>";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."‘Chretién-expletive’ "."</td>";
+                        echo "</tr>";
+                        echo "</p >";
+
+                          echo "<p >";
+                          echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."\t"."</td>";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."\t"."</td>";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."æntaɪ-fʌkɪŋ-kʀetjɛ̃"."</td>";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."‘anti-Chretién-expletive’"."</td>";
                         echo "</tr>";
                         echo "</p >";
 
                   echo "<p >";
                         echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."mɔ̃ʀeal"."</td>";
                         echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."'Montreal’"."</td>";
-                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."nɒn-mɔ̃ʀeal"."</td>";
-                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."‘non-’"."</td>";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."mʌntɹi-fʌkɪŋ-ɑl"."</td>";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."‘Montreal-expletive’"."</td>";
+                        echo "</tr>";
+                        echo "</p >";
+
+                         echo "<p >";
+                          echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."\t"."</td>";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."\t"."</td>";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."nɒn-fʌkɪŋ—mɔ̃ʀeal"."</td>";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."‘non-Montreal-expletive’"."</td>";
                         echo "</tr>";
                         echo "</p >";
             }

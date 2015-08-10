@@ -180,20 +180,20 @@ insert into language (title,name,type,examples,source,description,dtrigger,deriv
 	"æ-nativization in Polish","Polish","Loanwords (English)",
 "ʤæs	‘jazz’	ʤaz-ovy	‘adjective’","Piotr Pisarek, p.c.",
 "Polish speakers can pronounce [æ] in English loanwords, but replace the sound with the native [a] in suffixed words.",
-"Triggers","","Triggers","","Unknown","","Unknown (no infixes reported)","Unknown","Unknown","");
+"Triggers","","Triggers","","Unknown","","Unknown (no infixes reported)","Unknown","Unknown","Unknown");
 /* data omittted  last item*/
 insert into language (title,name,type,examples,source,description,dtrigger,derivational,itrigger,
 	inflectional,ptrigger,prefixes,infixes,variation,frequency,extent) values (
 	"Trisyllabic shortenining in English","English","Latinate words",
-"náːture		nátur-al	
-defáːme		dèfam-á:tion	
-artículàːte		artículat-òry
-oblíːge		oblíg-atòry	
-álternàːte	`verb’	álternate	‘adjective’
-aspíːre		áspir-ant	
-géneràːte		génerat-ive	","<a onclick='f1(this);' href=“/references”>Burzio 1993</a>, <a onclick='f1(this);' href=“/references”>Burzio 1994</a>, <a onclick='f1(this);' href=“/references”>Burzio 2000</a>, <a onclick='f1(this);' href=“/references”>Burzio 2011</a>",
+"náːture   <span></span>	nátur-al	<span></span>
+defáːme	 <span></span> dèfam-á:tion  <span></span>
+artículàːte	  <span></span> artículat-òry  <span></span>
+oblíːge  <span></span>	oblíg-atòry  <span></span>
+álternàːte	‘verb’	álternate	‘adjective’
+aspíːre	<span></span> áspir-ant	<span></span>
+géneràːte	<span></span>   génerat-ive   <span></span>","<a onclick='f1(this);' href=“/references”>Burzio 1993</a>, <a onclick='f1(this);' href=“/references”>Burzio 1994</a>, <a onclick='f1(this);' href=“/references”>Burzio 2000</a>, <a onclick='f1(this);' href=“/references”>Burzio 2011</a>",
 "Latinate roots in English can have a long vowel which shortens in derived words.","Triggers","","Not triggers","","Not triggers","","Not triggers",
-"No variation. Underived words have no variation. Some words exhibit the opposite set of facts.","","Latinate roots only");
+"No variation. Underived words have no variation. Some words exhibit the opposite set of facts.","Frequenty","Latinate roots only");
 insert into language (title,name,type,examples,source,description,dtrigger,derivational,itrigger,
 	inflectional,ptrigger,prefixes,infixes,variation,frequency,extent) values (
 	"Prosodification in English","English","Loanwords (Spanish)",
@@ -227,25 +227,25 @@ insert into language (title,name,type,examples,source,description,dtrigger,deriv
 	"Schwa fronting in Slovenian","Slovenian","Native and Loanwords (English)",
 "dəʃ	‘rain’	deʒ-nik	‘umbrella’
 mənix	‘monk’	menix-aɾ	‘pejorative’
-kəs	‘regret’	‘kes-a’	’s/he regrets’
+kəs	‘regret’	kes-a	's/he regrets'
 təm-a	‘dark-nominative.singular’	tem-nina	‘darkness’
 mɛseʧusəʦ	‘Massachusetts’	meseʧuse-ʧan	‘denonym’
-tɛnəsi	’Tennessee’	tenesi-sk-i	‘adjective-masculine.nominative.singular’
+tɛnəsi	'Tennessee’	tenesi-sk-i	‘adjective-masculine.nominative.singular’
 wiskɔnsən	‘Wisconsin’	ʋiskonsen-ʧan	‘denonum’
 dətɹɔjt	‘Detroit’	detɾojt-ʧan	‘denonym’","<a onclick='f1(this);' href=“/references”>Jurgec 2014</a>, <a onclick='f1(this);' href=“/references”>Jurgec 2015</a>,<a onclick='f1(this);' href=“/references”>Šeruga Prek and Antončič 2003:71</a>",
-"Schwa can appear in bare roots but is fronted in words with derivational suffixes.","Triggers",
-"(see the main dataset)","Not triggers",
+"Schwa can appear in bare roots but is fronted in words with derivational suffixes.","Triggers(see the main dataset)",
+"","Not triggers",
 "dəʃ	‘rain’	dəʒ-ja	‘genetive.singular’
 mənix	‘monk’	mənix-i	‘nominative.plural’
 bət	’stem’	bət-u	‘dative.singular’
 kəs	‘regret’	kəs-a	‘nominative.dual’
-təʃʧ	‘fast.adjective.nominative.singular.masculine’	təʃʧ-e	‘nomative.singular.neuter’
+təʃʧ	‘fast’	təʃʧ-e	‘nomative.singular.neuter’
 mɛseʧusəʦ	‘Massachusetts’	meseʧusəʦ-a	‘genitive.singular’
 tɛnəsi	’Tennessee’	tenəsi-ju	‘locative.singular’
 dətɹɔjt	‘Detroit’	dətɾojt-a	‘genitive.singular’","Not triggers",
 "dəʃ	‘rain’	nɛ-dəʃ	‘non-’
 mənix	‘monk’	pɾa-mənix	‘grand-’
-kəs	‘regret’	‘s-kəs’	’perfective-’
+kəs	‘regret’	s-kəs	’perfective-’
 təʃʧ	‘fast.adjective’	nɛ-təʃʧ	‘non-’
 mɛseʧusəʦ	‘Massachusetts’	nɛ-mɛseʧusəʦ	‘non-’
 tɛnəsi	’Tennessee’	supeɾ-tɛnəsi	‘super-’
@@ -303,10 +303,10 @@ tɛk	‘tech’	neo-tek	‘neo-’
 insert into language (title,name,type,examples,source,description,dtrigger,derivational,itrigger,
 	inflectional,ptrigger,prefixes,infixes,variation,frequency,extent) values(
 	"Deletion in Russian","Russian","Native",
-"sə dvaróm	‘with the yard’	z dvaróvɨm	‘with the yard-adjective’
-kə kristú	‘to the cross’	k kréstiku	‘to the cross-diminutive’
-sa mnóg-imi	‘with many’	s mnóʐəstvəm	‘with a multitude’
-sə ftarɨ́m	‘with second-adjective’	s ftər-a-gód-niʧistv-əm	‘with repeating a grade’"
+"sə<span>&nbsp<span>dvaróm	'with the yard'	z<span>&nbsp<span>dvaróvɨm 	'with the yard-adjective'
+kə<span>&nbsp<span>kristú	'to the cross'	k<span>&nbsp<span>kréstiku	'to the cross-diminutive'
+sa<span>&nbsp<span>mnóg-imi	'with many'	s<span>&nbsp<span>mnóʐəstvəm	'with a multitude'
+sə<span>&nbsp<span>ftarɨ́m	'with second-adjective'	s<span>&nbsp<span>ftər-a-gód-niʧistv-əm	'with repeating a grade'"
 ,"<a onclick='f1(this);' href=“/references”>Gouskova and Linzen to appear</a>",
 "Deletion is blocked before certain roots, but deletion applies in derived environments.","Triggers","",
 "Not triggers (mostly)","","Unknown","","No data (no infixation reported)","Variation in derived an non-derived environments. Deletion rates are higher in derived environments.","Frequency for selected roots provided in the source.","Only certain roots undergo this process. Other roots never have deletion or always have it.");
@@ -314,8 +314,8 @@ insert into language (title,name,type,examples,source,description,dtrigger,deriv
 	inflectional,ptrigger,prefixes,infixes,variation,frequency,extent) values (
 	"Word minimum in Turkish","Turkish","Native",
 "ham	‘unripe’	ek	‘affix’	
-fa-dan	‘fa (note)-ablative’	*fa-n	‘fa-2.singular.possesive’
-be-ler	‘b (letter)-plural’	*be-n	‘b-2.singular.possesive’"
+fa-dan	'fa (note)-ablative'	*fa-n	‘fa-2.singular.possesive’
+be-ler	'b (letter)-plural'	*be-n	‘b-2.singular.possesive’"
 ,"<a onclick='f1(this);' href=“/references”>Inkelas and Orgun 1995</a>",
 "Turkish has a disyllabic minimum. Non-derived words can be monosyllabic and are thus exempt from the disyllabic word minimum.",
 "Triggers","","Triggers","","Unknown","",
