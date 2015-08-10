@@ -17,16 +17,16 @@ CREATE TABLE language (
 	title varchar(200),
 	name varchar(300),
 	type varchar(200),
-	examples varchar(3000),
-	source varchar(300),
+	examples varchar(2000),
+	source varchar(1500),
 	description varchar(2000),
 	dtrigger varchar(300),
-	derivational varchar(300),
+	derivational varchar(1500),
 	itrigger varchar(300),
-	inflectional varchar(300),
+	inflectional varchar(1500),
 	ptrigger varchar(300),
-	prefixes varchar(300),
-	infixes varchar(300),
+	prefixes varchar(1500),
+	infixes varchar(1500),
 	variation varchar(300),
 	frequency varchar(300),
 	extent varchar(300)
@@ -168,22 +168,167 @@ affix+filipino 86	affix+pilipino 1,117
 fiesta 952	pista 416	
 affix+fiesta 27 ~ affix+pista 607
 F-variants are about twice as frequent as p-variants in the non-affixed words. F-variants are rare in affixed words.","It is unclear how many other words also exhibit the pattern. Loanwords of this kind may not have sufficient frequency in the corpus. (Kie Zuraw p.c.)");
+
+insert into language (title,name,type,examples,source,description,dtrigger,derivational,itrigger,
+	inflectional,ptrigger,prefixes,infixes,variation,frequency,extent) values("Initial r in Basque","Basque","Loanwords",
+"rugbi	‘rugby’	rugbi-a	‘absolutive.definite.singular’
+rusia	‘Russia’	erusia-ra	‘denonym’",
+"Varun de Castro-Arrazola, p.c.",
+"Initial r is illicit in Basque, but can occur in recent loanwords. When the loanwords are suffixed, e is epenthesized, in accordance with the native phonology.",
+"Triggers","","Triggers","","Unknown","","No data (no infixation reported)","Regularization possible in non-derived environments.","Unknown","Unknown");
+insert into language (title,name,type,examples,source,description,dtrigger,derivational,itrigger,
+	inflectional,ptrigger,prefixes,infixes,variation,frequency,extent) values(
+	"æ-nativization in Polish","Polish","Loanwords (English)",
+"ʤæs	‘jazz’	ʤaz-ovy	‘adjective’","Piotr Pisarek, p.c.",
+"Polish speakers can pronounce [æ] in English loanwords, but replace the sound with the native [a] in suffixed words.",
+"Triggers","","Triggers","","Unknown","","Unknown (no infixes reported)","Unknown","Unknown","");
+/* data omittted  last item*/
+insert into language (title,name,type,examples,source,description,dtrigger,derivational,itrigger,
+	inflectional,ptrigger,prefixes,infixes,variation,frequency,extent) values (
+	"Trisyllabic shortenining in English","English","Latinate words",
+"náːture		nátur-al	
+defáːme		dèfam-á:tion	
+artículàːte		artículat-òry
+oblíːge		oblíg-atòry	
+álternàːte	`verb’	álternate	‘adjective’
+aspíːre		áspir-ant	
+géneràːte		génerat-ive	","<a onclick='f1(this);' href=“/references”>Burzio 1993</a>, <a onclick='f1(this);' href=“/references”>Burzio 1994</a>, <a onclick='f1(this);' href=“/references”>Burzio 2000</a>, <a onclick='f1(this);' href=“/references”>Burzio 2011</a>",
+"Latinate roots in English can have a long vowel which shortens in derived words.","Triggers","","Not triggers","","Not triggers","","Not triggers",
+"No variation. Underived words have no variation. Some words exhibit the opposite set of facts.","","Latinate roots only");
+insert into language (title,name,type,examples,source,description,dtrigger,derivational,itrigger,
+	inflectional,ptrigger,prefixes,infixes,variation,frequency,extent) values (
+	"Prosodification in English","English","Loanwords (Spanish)",
+"kihoʊti	‘Quixote’	kwɪkzɑɾ-ɪk	‘Quixotic’",
+"<a onclick='f1(this);' href=“/references”>McCarthy 2003</a>, <a onclick='f1(this);' href=“/references”>Wolf 2008</a>",
+"English speakers can pronounce some loanwords with the foreign prosodification.","Triggers","","Not triggers",
+"kihoʊti	‘Quixote’	kihoʊti-z	‘plural’","Not triggers","","Triggers (must be non-initial)","Unknown","Unknown","Only one lexical item reported in the literature.");
 insert into language (title,name,type,examples,source,description,dtrigger,derivational,itrigger,
 	inflectional,ptrigger,prefixes,infixes,variation,frequency,extent) values(
 	"r-nativization in Canadian English","Canadian English","Loanwords (English)",
-	"film nwɑʀ	‘film noir’	nuwɑɹ-ɪst	‘noirist’
+"film nwɑʀ	‘film noir’	nuwɑɹ-ɪst	‘noirist’
 kʀetjɛ̃	‘Chretién (name)’	kɹeɪtʃjɛn-z	‘possesive’
 menaʒ a tʀwɑ	ménage á trois’	meɪnɑʒ ɑ tɹwɑ-z	‘plural’
 o pɛʀ	‘au pair’	oʊpɛəɹ-z 	‘plural’
-mɔ̃ʀeal	‘Montreal’	mʌntɹiɑl-əɹ	‘Montrealer’","<a onclick='f1(this);' href=“/references”>McCarthy 2003</a>, <a onclick='f1(this);' href=“/references”>Wolf 2008</a>",
+mɔ̃ʀeal	‘Montreal’	mʌntɹiɑl-əɹ	‘Montrealer’",
+"<a onclick='f1(this);' href=“/references”>McCarthy 2003</a>, <a onclick='f1(this);' href=“/references”>Wolf 2008</a>",
 "Canadian English speakers (and some American English speakers) can pronounce the French rhotic in certain loanwords, typically from Quebec French, as long as no suffix follows.",
-"Triggers","kʀetjɛ̃	‘Chretién (name)’	kɹeɪtʃjɛn-ɪzəm	‘Chretiénism’
-mɔ̃ʀeal	‘Montreal’	mʌntɹiɑl-əɹ	‘Montrealer’
-”,”Triggers	
-kʀetjɛ̃	‘Chretién (name)’	kɹeɪtʃjɛn-z	‘plural’
-mɔ̃ʀeal	‘Montreal’	mʌntɹiɑl-z	‘plural’","Not triggers	",
-	"kʀetjɛ̃	‘Chretién (name)’	æntaɪ-kʀetjɛ̃	‘anti-’
-mɔ̃ʀeal	‘Montreal’	nɒn-mɔ̃ʀeal	‘non-’","Triggers (must be non-initial)",
-"kʀetjɛ̃	‘Chretién (name)’	kɹeɪ<fʌkɪŋ>tʃjɛn	‘Chretién + expletive’	æntaɪ-fʌkɪŋ-kʀetjɛ̃	‘anti-Chretién + expletive’
-mɔ̃ʀeal	‘Montreal’	mʌntɹi<fʌkɪŋ>ɑl	‘Montreal + expletive’	nɒn-fʌkɪŋ—mɔ̃ʀeal	‘non-Montreal + expletive’ mɔ̃ʀeal	‘Montreal’	mʌntɹi<fʌkɪŋ>ɑl	‘Montreal + expletive’	nɒn-fʌkɪŋ—mɔ̃ʀeal	‘non-Montreal + expletive’",
-"Regularization possible in non-derived environments.","Rare words","Uknown","Uknown");
+"Triggers",
+"kʀetjɛ̃	‘Chretién (name)’	kɹeɪtʃjɛn-ɪzəm	‘Chretiénism’
+mɔ̃ʀeal	‘Montreal’	mʌntɹiɑl-əɹ	‘Montrealer’","Triggers",	
+"kʀetjɛ̃	‘Chretién (name)’	kɹeɪtʃjɛn-z	‘plural’
+mɔ̃ʀeal	‘Montreal’	mʌntɹiɑl-z	‘plural’","Not triggers",
+"kʀetjɛ̃	‘Chretién (name)’	æntaɪ-kʀetjɛ̃	‘anti-’
+mɔ̃ʀeal	‘Montreal’	nɒn-mɔ̃ʀeal	‘non-’","Triggers (must be non-initial) kʀetjɛ̃	‘Chretién (name)’	kɹeɪ<fʌkɪŋ>tʃjɛn	‘Chretién + expletive’	æntaɪ-fʌkɪŋ-kʀetjɛ̃	‘anti-Chretién + expletive’
+mɔ̃ʀeal	‘Montreal’	mʌntɹi<fʌkɪŋ>ɑl	‘Montreal + expletive’	nɒn-fʌkɪŋ—mɔ̃ʀeal	‘non-Montreal + expletive’",
+"Regularization possible in non-derived environments.","Rare words","Uknown");
+/*deleted one "Unknown"*/
+
+insert into language (title,name,type,examples,source,description,dtrigger,derivational,itrigger,
+	inflectional,ptrigger,prefixes,infixes,variation,frequency,extent) values(
+	"Schwa fronting in Slovenian","Slovenian","Native and Loanwords (English)",
+"dəʃ	‘rain’	deʒ-nik	‘umbrella’
+mənix	‘monk’	menix-aɾ	‘pejorative’
+kəs	‘regret’	‘kes-a’	’s/he regrets’
+təm-a	‘dark-nominative.singular’	tem-nina	‘darkness’
+mɛseʧusəʦ	‘Massachusetts’	meseʧuse-ʧan	‘denonym’
+tɛnəsi	’Tennessee’	tenesi-sk-i	‘adjective-masculine.nominative.singular’
+wiskɔnsən	‘Wisconsin’	ʋiskonsen-ʧan	‘denonum’
+dətɹɔjt	‘Detroit’	detɾojt-ʧan	‘denonym’","<a onclick='f1(this);' href=“/references”>Jurgec 2014</a>, <a onclick='f1(this);' href=“/references”>Jurgec 2015</a>,<a onclick='f1(this);' href=“/references”>Šeruga Prek and Antončič 2003:71</a>",
+"Schwa can appear in bare roots but is fronted in words with derivational suffixes.","Triggers",
+"(see the main dataset)","Not triggers",
+"dəʃ	‘rain’	dəʒ-ja	‘genetive.singular’
+mənix	‘monk’	mənix-i	‘nominative.plural’
+bət	’stem’	bət-u	‘dative.singular’
+kəs	‘regret’	kəs-a	‘nominative.dual’
+təʃʧ	‘fast.adjective.nominative.singular.masculine’	təʃʧ-e	‘nomative.singular.neuter’
+mɛseʧusəʦ	‘Massachusetts’	meseʧusəʦ-a	‘genitive.singular’
+tɛnəsi	’Tennessee’	tenəsi-ju	‘locative.singular’
+dətɹɔjt	‘Detroit’	dətɾojt-a	‘genitive.singular’","Not triggers",
+"dəʃ	‘rain’	nɛ-dəʃ	‘non-’
+mənix	‘monk’	pɾa-mənix	‘grand-’
+kəs	‘regret’	‘s-kəs’	’perfective-’
+təʃʧ	‘fast.adjective’	nɛ-təʃʧ	‘non-’
+mɛseʧusəʦ	‘Massachusetts’	nɛ-mɛseʧusəʦ	‘non-’
+tɛnəsi	’Tennessee’	supeɾ-tɛnəsi	‘super-’
+dətɹɔjt	‘Detroit’	anti-dətɹojt	‘anti-’",
+"No data (no infixation reported)",
+"Regularization possible in non-derived environments, but rarely in native words.","Unknown","Schwa is rare in native roots.");
+insert into language (title,name,type,examples,source,description,dtrigger,derivational,itrigger,
+	inflectional,ptrigger,prefixes,infixes,variation,frequency,extent) values(
+	"Vowel tensing Slovenian","Slovenian","Native",
+"ʧlɛn	‘part, paragraph’	ˈʧlen-a	‘genitive.singular’
+mɛt	‘throw’	ˈmet-ək	‘bullet’
+ɾɛk	‘idiom’	ˈɾek-u	‘locative.singular’
+smɛx	‘laughter’	ˈsmex-om	’instrumental.singular’
+ˈmɛdʋet	‘bear’	medˈʋed-ji	‘adjective.masculine.nominative.singular’
+ˈjɛzik	‘language’	jeˈzik-i	‘nomative.plural’
+ˈjɛlen	‘deer’	jeˈlen-ʧək	‘diminutive’
+ˈʒɛlot	‘acorn’	ʒeˈlod-oma	‘dative.dual’"
+,"<a onclick='f1(this);' href=“/references”>Jurgec 2015</a>, <a onclick='f1(this);' href=“/references”>Toporišič 1976/2000</a>",
+"Some roots can have stressed lax mid vowels {ɛ ɔ} when not followed by a suffix. When suffixed, the lax vowels are avoided. Vowels become tense {e o} in monosyllabic roots. Disyllabic or longer roots instead exhibit stress shift to the following root vowel, which is never lax. The resulting unstressed vowel is no longer lax, as unstressed vowels do not contrast in ATR.",
+"Triggers","","Triggers","","Not triggers",
+"ʧlɛn	‘part, paragraph’	ˌpɔt-ˈʧlɛn	‘sub-’
+mɛt	‘throw’	do-ˈmɛt	‘reach’
+ɾɛk	‘idiom’	na-ˈɾɛk	‘dictation’
+smɛx	‘laughter’	na-ˈsmɛx	’smile’
+ˈmɛdʋet	‘bear’	ˌpɾa-ˈmɛdʋet	‘ancestor-’
+ˈjɛzik	‘language’	ˌpɾa-ˈjɛzik	‘ancestor-’
+ˈjɛlen	‘deer’	ˌnɛ-ˈjɛlen	‘non-’
+ˈʒɛlot	‘acorn’	ˌnɛ-ˈʒɛlot	‘non-’
+peˈtɛlin	‘rooster’	ˌnɛ-peˈtɛlin	‘non-‘",
+"No data (no infixation reported)",
+"Slovenian native roots fall into three groups with respect to their stressed vowels: (i) non-alternating, always tense, (ii) non-alternating, always lax, and (iii) alternating, tense when not suffixed, lax when suffixed. Many roots fall in more than one of the above categories. The fourth possibility (alternating, lax when not suffixed, tense when suffixed) is not attested.","See above","The always lax paradigm is about 10 times rarer than the alternating paradigm.");
+insert into language (title,name,type,examples,source,description,dtrigger,derivational,itrigger,
+	inflectional,ptrigger,prefixes,infixes,variation,frequency,extent) values(
+	"Vowel tensing Slovenian","Slovenian","Loanwords (English)",
+"flɛʃ	‘flash’	fleʃ-u	‘dative.singular’
+mɛʧ	‘match’	meʧ-i	‘nominative.plural’
+tɛk	‘tech’	tek-a	‘genitive.singular’
+ɛkstazi	‘extasy’	ekstazi-ja	‘genitive.singular’
+mɛseʧusəʦ	‘Massachusetts’	meseʧuseʦ-a	‘genitive.singular’
+tɛnəsi	’Tennessee’	tenesi-sk-i	‘adjective-masculine.nominative.singular’
+wiskɔnsən	‘Wisconsin’	ʋiskonsen-ʧan	‘denonum’
+dətɹɔjt	‘Detroit’	detɾojt-ʧan	‘denonym’",
+"<a onclick='f1(this);' href=“/references”>Jurgec 2010</a>,<a onclick='f1(this);' href=“/references”>Jurgec 2015</a>, <a onclick='f1(this);' href=“/references”>Toporišič 1976/2000:52</a>",
+"Some loanword roots can have stressed lax mid vowels {ɛ ɔ} when not followed by a suffix. When suffixed, the vowels are typically replaced by tense vowels {e o}.","Triggers","",
+"Triggers","","Not triggers",
+"mɛseʧusəʦ	‘Massachusetts’	nɛ-mɛseʧusəʦ	‘non-’
+tɛnəsi	’Tennessee’	supeɾ-tɛnəsi	‘super-’
+dətɹɔjt	‘Detroit’	anti-dətɹojt	‘anti-’
+flɛʃ	‘flash’	anti-flɛʃ	‘anti-’
+mɛʧ	‘match’	ɾe-mɛʧ	‘re-’
+tɛk	‘tech’	neo-tek	‘neo-’
+ɛkstazi	‘extasy’	nɛ-ʔɛkstazi	‘non-’",
+"No data (no infixation reported)",
+"Regularization possible in non-derived environments. Native roots exhibit the same avoidance of lax vowels, but have different repairs.","Unknown","Unknown");
+insert into language (title,name,type,examples,source,description,dtrigger,derivational,itrigger,
+	inflectional,ptrigger,prefixes,infixes,variation,frequency,extent) values(
+	"Deletion in Russian","Russian","Native",
+"sə dvaróm	‘with the yard’	z dvaróvɨm	‘with the yard-adjective’
+kə kristú	‘to the cross’	k kréstiku	‘to the cross-diminutive’
+sa mnóg-imi	‘with many’	s mnóʐəstvəm	‘with a multitude’
+sə ftarɨ́m	‘with second-adjective’	s ftər-a-gód-niʧistv-əm	‘with repeating a grade’"
+,"<a onclick='f1(this);' href=“/references”>Gouskova and Linzen to appear</a>",
+"Deletion is blocked before certain roots, but deletion applies in derived environments.","Triggers","",
+"Not triggers (mostly)","","Unknown","","No data (no infixation reported)","Variation in derived an non-derived environments. Deletion rates are higher in derived environments.","Frequency for selected roots provided in the source.","Only certain roots undergo this process. Other roots never have deletion or always have it.");
+insert into language (title,name,type,examples,source,description,dtrigger,derivational,itrigger,
+	inflectional,ptrigger,prefixes,infixes,variation,frequency,extent) values (
+	"Word minimum in Turkish","Turkish","Native",
+"ham	‘unripe’	ek	‘affix’	
+fa-dan	‘fa (note)-ablative’	*fa-n	‘fa-2.singular.possesive’
+be-ler	‘b (letter)-plural’	*be-n	‘b-2.singular.possesive’"
+,"<a onclick='f1(this);' href=“/references”>Inkelas and Orgun 1995</a>",
+"Turkish has a disyllabic minimum. Non-derived words can be monosyllabic and are thus exempt from the disyllabic word minimum.",
+"Triggers","","Triggers","","Unknown","",
+"Unknown",
+"Speakers fall into several groups, only some of which show the disyllabic restriction.","Unknown","Unknown");
+insert into language (title,name,type,examples,source,description,dtrigger,derivational,itrigger,
+	inflectional,ptrigger,prefixes,infixes,variation,frequency,extent) values ("Word minimum in Japanese","Japanese","Native",
+"su 	‘vinegar’		
+choko ‘chocolate (truncation)’	*cho"
+,"<a onclick='f1(this);' href=“/references”>Itô 1990</a>, <a onclick='f1(this);' href=“/references”>Kiparsky 1993</a>",
+"Japanese has a bimoraic word minimum. Non-derived words can be monomoraic and are thus exempt from the bimoraic word minimum.","Triggers","",
+"Triggers","","Unknown","",
+"Unknown",
+"Unknown","Unknown","Unknown");
+
