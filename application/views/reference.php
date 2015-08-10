@@ -40,8 +40,19 @@
 		<div class="container">
 		<h2>Reference</h2>
 		<br/>	
-	
+		<p style="font-size:12pt;color:#000000">Burzio, Luigi (1993). English stress, vowel length and modularity. <i>Journal of Linguistics</i> 29. 359–418.</p>
+		<p style="font-size:12pt;color:#000000">Burzio, Luigi (1994). <i>Principles of English Stress.</i> Cambridge: Cambridge University Press.</p>
+		<p style="font-size:12pt;color:#000000">Burzio, Luigi (2000). Cycles, Non-Derived-Environment Blocking, and correspondence. In Joost Dekkers, Frank van der Leeuw, and Jeroen van de Weijer (eds.) <i>Optimality Theory: Phonology, Syntax, and Acquisition.</i>. Oxford: Oxford University Press. 47–87.</p>
+		
+		<p style="font-size:12pt;color:#000000">Burzio, Luigi (2011). Derived environment effects. In Marc van Oostendorp, Colin J. Ewen, Elizabeth Hume, and Keren D. Rice (eds.) <i>The Blackwell Companion to Phonology</i>. Malden, MA: Blackwell. 2091–2116.
+</p>
+		<p style="font-size:12pt;color:#000000">Gouskova, Maria and Tal Linzen (to appear). Morphological conditioning of phonological regularization. <i>The Linguistic Review</i>. [<a href=“http://ling.auf.net/lingbuzz/002246”>LingBuzz, 2246</a>]</p>
+		<p style="font-size:12pt;color:#000000">Inkelas, Sharon and Cemil Organ Orgun (1995). Level Ordering and Economy in the Lexical Phonology of
+Turkish. <i>Language</i> 71. 763–793.</p>
+		<p style="font-size:12pt;color:#000000">Itô, Junko (1990). <i>Prosodic Minimality in Japanese.</i>. Technical Report SRC-90-04. Santa Cruz, CA: Syntax Research Center, Cowell College, UCSC.
+</p>
 		<p style="font-size:12pt;color:#000000">Jurgec, Peter (2010). Disjunctive lexical stratification. <i>Linguistic Inquiry</i> 41. 149–161. [<a href=“http://ling.auf.net/lingbuzz/000851”>Prepublication version</a>]</p>
+
 		<p style="font-size:12pt;color:#000000">Jurgec, Peter (2014). Morphology affects loanword phonology. In Hsin-Lun Huang, Ethan Poole, and Amanda Rysling (eds.) <i>NELS 43: Proceedings of the 43rd Annual Meeting of the North East Linguistic Society<i/>. Amherst, MA: GLSA. Vol. I:191–202. [<a href=“http://ling.auf.net/lingbuzz/002175”>Prepublication version</a>]</p>
 		<p style="font-size:12pt;color:#000000">Jurgec, Peter (2015). The Oprah Effect. Ms. University of Toronto. [Please, email for the manuscript.]</p>
 		<p style="font-size:12pt;color:#000000">Kiparsky, Paul (1973). Phonological representations. In Osamu, Fujimura (ed.) Three dimensions of linguistic theory. Tokyo: TEC. 1-136.</p>

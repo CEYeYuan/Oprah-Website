@@ -39,8 +39,8 @@ insert into language (title,name,type,examples,source,description,dtrigger,deriv
 ˈɹɔbin	'Robin'	ˈɾobin-u	'locative.singular'
 ˈɹɛgan	'Reagan'	ˈɾegan-i	'nominative.plural'
 foɹt	'Ford'	ˈfoɾd-iʧ	'diminutive'
-maɹk	'Marc'	ˈmaɾk-ow	'possesive'","<a onclick='f1(this);' href=“/references”>Jurgec 2010</a><a onclick='f1(this);' href=“/references”>Jurgec 2015</a>, <a onclick='f1(this);' href=“/references”>Torporišič 1976/2000</a>"
-,'Slovenian variantly allows [ɹ] in bare roots of recent loanwords from English. In affixed words, [ɹ] is nativized into [ɾ] (or another native rhotic). ',"Triggers",
+maɹk	'Marc'	ˈmaɾk-ow	'possesive'","<a onclick='f1(this);' href=“/references”>Jurgec 2010</a>, <a onclick='f1(this);' href=“/references”>Jurgec 2015</a>, <a onclick='f1(this);' href=“/references”>Torporišič 1976/2000</a>"
+,'Slovenian variantly allows [ɹ] in bare roots of some recent loanwords from English. In affixed words, [ɹ] is nativized into [ɾ] (or another native rhotic). ',"Triggers",
 "ˈɹɔbin	'Robin'	ɾobiˈn-ux	'pejorative'
 ˈɹɛgan	'Reagan'	ˈɾegan-ʧək	'diminutive'
 ˈbaɹak	'Barack'	ˈbaɾak-əʦ	'diminutive'
@@ -61,11 +61,11 @@ insert into language (title,name,type,examples,source,description,dtrigger,deriv
 ˈwajlt	'Wilde'	ˈʋajld-oʋ-a	'possesive-feminine.nominative.singular'
 twist	'twist'	ˈtʋist-om	'instrumental.singular'
 swiŋk	'swing'	ˈsʋiŋg-a-ti	'verb-infintive'",
-"Jurgec 2015, <a onclick='f1(this);' href=“/references”>Jurgec 2010</a>, <a onclick='f1(this);' href=“/references”>Toporišič 1976/2000</a>, <a onclick='f1(this);' href=“/references”>Tivadar 2004:440</a>",
+"<a onclick='f1(this);' href=“/references”>Jurgec 2015</a>, <a onclick='f1(this);' href=“/references”>Jurgec 2010</a>, <a onclick='f1(this);' href=“/references”>Toporišič 1976/2000</a>, <a onclick='f1(this);' href=“/references”>Tivadar 2004:440</a>",
 "Slovenian variantly allows onset [w] in bare roots of recent loanwords from English. In affixed words, [w] is nativized into [ʋ]. Note that the distribution of v-allophones is complex in Slovenian; [w] is well-formed in codas.",
-"Triggers","","Triggers","","Triggers","ˈwɔʃiŋktən	'Washington'		ˈnɛ-ˈʋaʃiŋkron	'non-'
-ˈwilsən	'Wilson'		ˈpɾaˈ-ʋilson	'old/grand-'
-ˈwajlt	'Wilde'	supeɾ-ˈʋajlt	'super-'"," No data (no infixation reported)","Regularization possible in non-derived environments",
+"Triggers","","Triggers","","Triggers","ˈwɔʃiŋktən	'Washington'		 ˌnɛ-ˈʋaʃiŋkron	'non-'
+ˈwilsən	'Wilson'		ˌpɾaˈ-ʋilson	'old/grand-'
+ˈwajlt	'Wilde'	ˌsupeɾ-ˈʋajlt	'super-'"," No data (no infixation reported)","Regularization possible in non-derived environments",
  "Unknown","Unknown");
 
 insert into language (title,name,type,examples,source,description,dtrigger,derivational,itrigger,
@@ -90,13 +90,13 @@ tyɾk	'Türk (name)'	ˈtiɾk-om	'instrumental.singular'
 ˈkœlən	'Cologne'	ˈkelen-sk-i	'adjective-masculine.nominative.singular'
 ˈʦyɾix 	'Zurich'	ˈʦiɾix-a	'genitive.singular'	
 ","<a onclick='f1(this);' href=“/references”>Jurgec 2015</a>, <a onclick='f1(this);' href=“/references”>Jurgec 2010</a>, <a onclick='f1(this);' href=“/references”>Torporišič 1976/2000</a>",
-"Slovenian variantly allows front round vowels in bare roots of some German or dialectal loanwords. In affixed words, round vowels are typically replaced by their unrounded counterparts. In some cases, back rounded vowels a preferred repair instead.",
+"Slovenian variantly allows front round vowels in bare roots of some German or dialectal loanwords. In affixed words, round vowels are typically replaced by their unrounded counterparts. In some cases, back rounded vowels are the preferred repair instead.",
 "Triggers","","Triggers","","Triggers","","No data (no infixation reported)","Regularization possible in non-derived environments","Unknown","Unknown");
 
 insert into language (title,name,type,examples,source,description,dtrigger,derivational,itrigger,
-	inflectional,ptrigger,prefixes,infixes,variation,frequency,extent) values("Initial s-clusters in Spanish","Spanish","Loanwords (English)",
-	"skajp	‘Skype’		eskajp(e)s ‘plural’
-	skejt	‘skate’		eskejtar	‘to skate’","Violeta Martinez-Paricio, p.c.","sC clusters are illicit in Spanish, but can occur in recent loanwords. When the loanwords are derived, e is epenthesized, in accordance with the native phonology.",
+	inflectional,ptrigger,prefixes,infixes,variation,frequency,extent) values("Initial sC-clusters in Spanish","Spanish","Loanwords (English)",
+	"skajp	‘Skype’		eskajp-s ‘plural’
+	skejt	‘skate’		eskat-er	‘to skate’","Violeta Martinez-Paricio, p.c.","sC clusters are illicit in Spanish, but can occur in recent loanwords. When the loanwords are derived, [e] is epenthesized, in accordance with the native phonology.",
 	"Triggers","","Triggers","","Unknown","","None","Regularization possible in non-derived environments","Unknown","Unknown");
 
 
@@ -113,7 +113,7 @@ kəˈθaʎə	'cazalla, liquor' 	kəsəˈʎɛt	'diminutive'
 insert into language (title,name,type,examples,source,description,dtrigger,derivational,itrigger,
 	inflectional,ptrigger,prefixes,infixes,variation,frequency,extent) values(
 "Mid vowels in Catalan","Catalan","Loanwords","ˈboston	'Boston'	bustunˈja	'Bostonian'",
-"<a onclick='f1(this);' href=“/references”>Mascaró 1978</a>","Catalan allows mid vowels {e, ɛ, o, ɔ} in unstressed positions only in some loanwords. When derived, some of these words show regularization in which the vowels must map to licit unstressed vowels. Not all words regularize (e.g. hoˈmeɾ 'Homer' ~ homɛɾ-ik 'Homeric').",
+"<a onclick='f1(this);' href=“/references”>Mascaró 1978</a>, <a onclick='f1(this);' href=“/references”>Kiparsky 1993</a>","Catalan allows mid vowels {e, ɛ, o, ɔ} in unstressed positions only in some loanwords. When derived, some of these words show regularization in which the vowels must map to licit unstressed vowels. Not all words regularize (e.g. hoˈmeɾ 'Homer' ~ homɛɾ-ik 'Homeric').",
 "Triggers","", "Unknown","","Unknown","","No data","Regularization impossible in non-derived environments. Some words do not show regularization.","Unknown","Unknown");
 
 insert into language (title,name,type,examples,source,description,dtrigger,derivational,itrigger,
@@ -124,7 +124,7 @@ Ba[ɹ]ack	'Barack'	Ba[ʀ]ack-se	'adjective'
 [ɹ]eading	'Reading (town)'	[ʀ]eading-je	'diminutive'
 Flo[ɹ]ida	'Florida'	Flo[ʀ]ida-tje	'diminutive'","<a onclick='f1(this);' href=“/references”>Jurgec 2014</a>, Marc van Oostendorp, p.c., Eefje Boef, p.c.",
 "In those Dutch dialects that do not allow [ɹ], this sound is possible in some English loanwords. When derived, [ɹ] is nativized into [ʀ] (or another native rhotic).",
-"Triggers:See main data","","Not triggers","Op[ɹ]ah	'Oprah'	Op[ɹ]ah-[s]	'plural'
+"Triggers (see main dataset)","","Not triggers","Op[ɹ]ah	'Oprah'	Op[ɹ]ah-[s]	'plural'
 Ba[ɹ]ack	'Barack'	Ba[ɹ]ack-[s]	'plural'	
 [ɹ]ex	'Rex' [ɹ]ex-en	'plural'
 Flo[ɹ]ida	'Florida'	Flo[ɹ]ida-[s]	'plural'","Not triggers","Op[ɹ]ah	'Oprah'	Hoofd-op[ɹ]ah	'main, true'
@@ -139,30 +139,29 @@ insert into language (title,name,type,examples,source,description,dtrigger,deriv
 "H-aspiré regularization in French","French","Native and Loanwords",
 "lə eʁo 'the hero'	l eʁo-in	'the heroine'
 lə pəti itlɛʁ 'the little Hitler'	œ̃ pətit itleʁjɛ̃	'a little follower of Hitler'",
-"<a onclick='f1(this);' href=“/references”>Kiparsky 1973</a>:89, <a onclick='f1(this);' href=“/references”>Kiparsky 1993</a>",
-"French h-aspiré words begin with a phonetic vowel, they pattern with words that begin with a consonant, allowing the preceding words to end in a vowel. There is a tendency for h-aspiré behavior to be lost in derived words.",
+"<a onclick='f1(this);' href=“/references”>Kiparsky 1973:89</a>, <a onclick='f1(this);' href=“/references”>Kiparsky 1993</a>",
+"French h-aspiré words begin with a phonetic vowel, and they pattern with words that begin with a consonant, allowing the preceding words to end in a vowel. There is a tendency for h-aspiré behavior to be lost in derived words.",
 "Triggers","", "Unknown","","Unknown","","No data","No variation","Unknown","Few words"
 );
 
 insert into language (title,name,type,examples,source,description,dtrigger,derivational,itrigger,
-	inflectional,ptrigger,prefixes,infixes,variation,frequency,extent) values("r-nativization in Hungarian","Hungarian","Loanwords (English)",
+	inflectional,ptrigger,prefixes,infixes,variation,frequency,extent) values("R-nativization in Hungarian","Hungarian","Loanwords (English)",
 "bɒɹɑk	‘Barack’	bɒrɑk-nɒk	‘dative’
 ɹɛdfoɹd	‘Redford’ 	rɛdford-ok	‘plural’
 ɹobɛɹʦ	‘Roberts’	robɛrʦ:-ɛl	‘comitative’
 kɛɹol	‘Carol’ 	kɛrol-ok	‘plural’
 ɹiki	‘Ricky’ 	riki-nɛk	‘dative’",
-"Andrea Márkus, p.c.","Some Hungarian speakers allow the English [ɹ] in some foreign roots. When derived, the rhotic must nativize.","Triggers","","No data","","No data","","Only some speakers show the pattern.","Unknown","Only recent loanwords (Éva Dékány, p.c.)","");
+"Andrea Márkus, p.c.","Some Hungarian speakers allow the English [ɹ] in some foreign roots. When derived, the rhotic must nativize.","Triggers","","Triggers","","No data","","No data","Unknown","Unknown","Only recent loanwords (Éva Dékány, p.c.)");
 
 insert into language (title,name,type,examples,source,description,dtrigger,derivational,itrigger,
-	inflectional,ptrigger,prefixes,infixes,variation,frequency,extent) values("f-nativization in Tagalog","Tagalog","Loanwords (Spanish)",
+	inflectional,ptrigger,prefixes,infixes,variation,frequency,extent) values("F-nativization in Tagalog","Tagalog","Loanwords (Spanish)",
 "filipino	‘Filipino’	pilipino-ŋ	‘definite’
 fiesta	‘feast’ 	pista-han	‘instrumental’",
 "<a onclick='f1(this);' href=“/references”>Zuraw 2006</a>, p.c., <a onclick='f1(this);' href=“/references”>Jurgec 2014</a>",
 "Tagalog allows labiodental fricatives {f, v} in certain (old) loanwords from Spanish, as long as they are not derived in which case labial stops {p, b} are preferred.","Triggers","","Likely not triggers (further data needed)",
-"filipino	‘Filipino’	filipina	’feminine’","filipino	‘Filipino’	mag-pilipino	‘language’
-fiesta	‘feast’ 	pam-pista	‘festival’
-","Data unclear (no forms with infixes only)",
-"fiesta	‘feast’ 	p<in>ag-pista-han","Affixed words are variant, but non-affixed words are not.","Corpus data available. 
+"filipino	‘Filipino’	filipina	’feminine’","Triggers",
+"filipino	‘Filipino’	mag-pilipino	‘language’
+fiesta	‘feast’ 	pam-pista	‘festival’   fiesta	 ‘feast’ p<in>ag-pista-han \n","Data unclear (no forms with infixes only)","Affixed words are variant, but non-affixed words are not.","Corpus data available. 
 filipino 20,074		pilipino 12,011	
 affix+filipino 86	affix+pilipino 1,117
 fiesta 952	pista 416	
@@ -204,7 +203,7 @@ insert into language (title,name,type,examples,source,description,dtrigger,deriv
 "kihoʊti	‘Quixote’	kihoʊti-z	‘plural’","Not triggers","","Triggers (must be non-initial)","Unknown","Unknown","Only one lexical item reported in the literature.");
 insert into language (title,name,type,examples,source,description,dtrigger,derivational,itrigger,
 	inflectional,ptrigger,prefixes,infixes,variation,frequency,extent) values(
-	"r-nativization in Canadian English","Canadian English","Loanwords (English)",
+	"R-nativization in Canadian English","Canadian English","Loanwords (English)",
 "film nwɑʀ	‘film noir’	nuwɑɹ-ɪst	‘noirist’
 kʀetjɛ̃	‘Chretién (name)’	kɹeɪtʃjɛn-z	‘possesive’
 menaʒ a tʀwɑ	ménage á trois’	meɪnɑʒ ɑ tɹwɑ-z	‘plural’

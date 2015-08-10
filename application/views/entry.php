@@ -77,24 +77,96 @@
             echo "<table>";
             echo "<col width='110'>";
             echo "<col width='180'>";
-            echo "<col width='110'>";
-            echo "<col width='500'>";
+            echo "<col width='150'>";
+            echo "<col width='400'>";
         
 
 
-         
-            for ($x=0;4*$x+3<$i;$x++){
-                echo "<tr>";
-                echo "<p >";
-                echo "<td style='text-align:left;font-size:12pt;color:#000000'>".$example[4*$x]."</td>";
-                echo "<td style='text-align:left;font-size:12pt;color:#000000'>".$example[4*$x+1]."</td>";
-                echo "<td style='text-align:left;font-size:12pt;color:#000000'>".$example[4*$x+2]."</td>";
-                echo "<td style='text-align:left;font-size:12pt;color:#000000'>".$example[4*$x+3]."</td>";
-                echo "</tr>";
-                echo "</p >";
+            if ($name!=='French'&&$name!=='Canadian English'){
+                 for ($x=0;4*$x+3<$i;$x++){
+                        echo "<tr>";
+                        echo "<p >";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>".$example[4*$x]."</td>";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>".$example[4*$x+1]."</td>";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>".$example[4*$x+2]."</td>";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>".$example[4*$x+3]."</td>";
+                        echo "</tr>";
+                        echo "</p >";
+                      }
+                         echo "</table>";
+                        echo "</p>";
+            }else
+            {   
+                if ($name==='French'){
+                 echo "<tr>";
+                        echo "<p >";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."lə eʁo"."</td>";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."'the hero'"."</td>";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."l eʁo-in"."</td>";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."'the heroine'"."</td>";
+                        echo "</tr>";
+                        echo "</p >";
+
+                        echo "<p >";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."lə pəti itlɛʁ"."</td>";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."'the little Hitler'"."</td>";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."œ̃ pətit itleʁjɛ̃"."</td>";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."'a little follower of Hitler'"."</td>";
+                        echo "</tr>";
+                        echo "</p >";
+
+                        echo "</table>";
+                        echo "</p>";
+                }
+                else if ($name==='Canadian English'){
+                    echo "<tr>";
+                        echo "<p >";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."film nwɑʀ"."</td>";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."‘film noir’"."</td>";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."nuwɑɹ-ɪst"."</td>";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."‘noirist’"."</td>";
+                        echo "</tr>";
+                        echo "</p >";
+
+                        echo "<p >";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."kʀetjɛ̃"."</td>";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."‘Chretién (name)’"."</td>";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."kɹeɪtʃjɛn-z"."</td>";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."‘possesive’"."</td>";
+                        echo "</tr>";
+                        echo "</p >";
+
+                          echo "<p >";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."menaʒ a tʀwɑ"."</td>";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."ménage á trois’"."</td>";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."meɪnɑʒ ɑ tɹwɑ-z"."</td>";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."‘plural’"."</td>";
+                        echo "</tr>";
+                        echo "</p >";
+
+                          echo "<p >";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."o pɛʀ"."</td>";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."‘au pair’"."</td>";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."oʊpɛəɹ-z"."</td>";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."‘plural’"."</td>";
+                        echo "</tr>";
+                        echo "</p >";
+
+                            echo "<p >";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."mɔ̃ʀeal"."</td>";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."'Montreal’"."</td>";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."mʌntɹiɑl-əɹ"."</td>";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."‘Montrealer’"."</td>";
+                        echo "</tr>";
+                        echo "</p >";
+
+                        echo "</table>";
+                        echo "</p>";
+
+                }
+
             }
-            echo "</table>";
-            echo "</p>";
+           
             
             echo "<p style='text-align:left;font-size:12pt;color:#000000'><b>Source:</b>&nbsp".$source."</p>";
             echo "<p style='text-align:left;font-size:12pt;color:#000000'><b>Description:</b>&nbsp".$description."</p>";
@@ -112,7 +184,8 @@
                 echo "<col width='180'>";
                 echo "<col width='110'>";
                 echo "<col width='500'>";    
-            for ($x=0;4*$x+3<$i;$x++){
+            if ($name!=='Canadian English'){
+                     for ($x=0;4*$x+3<$i;$x++){
                 echo "<tr>";
                 echo "<p >";
                 echo "<td style='text-align:left;font-size:12pt;color:#000000'>".$de[4*$x]."</td>";
@@ -121,7 +194,26 @@
                 echo "<td style='text-align:left;font-size:12pt;color:#000000'>".$de[4*$x+3]."</td>";
                 echo "</tr>";
                 echo "</p >";
+                 }
+            }else{
+
+                     echo "<p >";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."kʀetjɛ̃"."</td>";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."‘Chretién (name)’"."</td>";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."kɹeɪtʃjɛn-ɪzəm"."</td>";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."‘Chretiénism’"."</td>";
+                        echo "</tr>";
+                        echo "</p >";
+
+                         echo "<p >";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."mɔ̃ʀeal"."</td>";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."'Montreal’"."</td>";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."mʌntɹiɑl-əɹ"."</td>";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."‘Montrealer’"."</td>";
+                        echo "</tr>";
+                        echo "</p >";
             }
+       
             echo "</table>";
             echo "</p>";
                 }else
@@ -141,7 +233,8 @@
                 echo "<col width='110'>";
                 echo "<col width='180'>";
                 echo "<col width='110'>";
-                echo "<col width='500'>";    
+                echo "<col width='500'>";  
+            if ($name!=='Canadian English')   {
             for ($x=0;4*$x+3<$i;$x++){
                 echo "<tr>";
                 echo "<p >";
@@ -151,6 +244,24 @@
                 echo "<td style='text-align:left;font-size:12pt;color:#000000'>".$example[4*$x+3]."</td>";
                 echo "</tr>";
                 echo "</p>";
+            }
+            }else{
+
+                    echo "<p >";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."kʀetjɛ̃"."</td>";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."‘Chretién (name)’"."</td>";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."  kɹeɪtʃjɛn-z"."</td>";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."‘plural’"."</td>";
+                        echo "</tr>";
+                        echo "</p >";
+
+                  echo "<p >";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."mɔ̃ʀeal"."</td>";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."'Montreal’"."</td>";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."mʌntɹiɑl-z"."</td>";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."‘plural’"."</td>";
+                        echo "</tr>";
+                        echo "</p >";
             }
             echo "</table>";
             echo "</p>";
@@ -170,8 +281,9 @@
                   echo "<table>";
                 echo "<col width='110'>";
                 echo "<col width='180'>";
-                echo "<col width='110'>";
-                echo "<col width='500'>";    
+                echo "<col width='150'>";
+                echo "<col width='500'>"; 
+         if ($name!=='Canadian English') {       
             for ($x=0;4*$x+3<$i;$x++){
                 echo "<tr>";
                 echo "<p >";
@@ -181,6 +293,23 @@
                 echo "<td style='text-align:left;font-size:12pt;color:#000000'>".$example[4*$x+3]."</td>";
                 echo "</tr>";
                 echo "</p >";
+            }}
+            else{
+                 echo "<p >";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."kʀetjɛ̃"."</td>";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."‘Chretién (name)’"."</td>";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."æntaɪ-kʀetjɛ̃"."</td>";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."‘anti-’"."</td>";
+                        echo "</tr>";
+                        echo "</p >";
+
+                  echo "<p >";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."mɔ̃ʀeal"."</td>";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."'Montreal’"."</td>";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."nɒn-mɔ̃ʀeal"."</td>";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."‘non-’"."</td>";
+                        echo "</tr>";
+                        echo "</p >";
             }
             echo "</table>";
             echo "</p>";
@@ -197,7 +326,8 @@
                 echo "<col width='110'>";
                 echo "<col width='180'>";
                 echo "<col width='110'>";
-                echo "<col width='500'>";    
+                echo "<col width='500'>";
+            if ($name!=='Canadian English'){    
             for ($x=0;4*$x+3<$i;$x++){
                 echo "<tr>";
                 echo "<p >";
@@ -207,6 +337,23 @@
                 echo "<td style='text-align:left;font-size:12pt;color:#000000'>".$example[4*$x+3]."</td>";
                 echo "</tr>";
                 echo "</p >";
+            }}
+             else{
+                 echo "<p >";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."kʀetjɛ̃"."</td>";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."‘Chretién (name)’"."</td>";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."æntaɪ-kʀetjɛ̃"."</td>";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."‘anti-’"."</td>";
+                        echo "</tr>";
+                        echo "</p >";
+
+                  echo "<p >";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."mɔ̃ʀeal"."</td>";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."'Montreal’"."</td>";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."nɒn-mɔ̃ʀeal"."</td>";
+                        echo "<td style='text-align:left;font-size:12pt;color:#000000'>"."‘non-’"."</td>";
+                        echo "</tr>";
+                        echo "</p >";
             }
             echo "</table>";
             echo "</p>";
@@ -249,7 +396,8 @@
             echo "</p>";
             }
             echo "<p style='text-align:left;font-size:12pt;color:#000000'>";
-            echo "F-variants are about twice as frequent as p-variants in the non-affixed words. F-variants are rare in affixed words.";
+            if ($name==='Tagalog')
+                echo "F-variants are about twice as frequent as p-variants in the non-affixed words. F-variants are rare in affixed words.";
             echo "</p>";  
             echo "</p>";
             echo "<p style='text-align:left;font-size:12pt;color:#000000'><b>Extent:</b>&nbsp".$extent."</p>";
