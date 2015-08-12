@@ -76,8 +76,8 @@
             $i=count($example);
             echo "<table>";
             echo "<col width='110'>";
-            echo "<col width='250'>";
-            echo "<col width='150'>";
+            echo "<col width='280'>";
+            echo "<col width='180'>";
             echo "<col width='400'>";
         
 
@@ -317,8 +317,13 @@
                 echo $prefixes;
             echo "</p>";
             echo "<p style='text-align:left;font-size:12pt;color:#000000'><b>Infixes:</b>&nbsp";
-             if( strlen($infixes)>=65){
+             if( strlen($infixes)>=65 || $name==='Tagalog'){
                  $regexp = '/\G(?:"[^"]*"|\'[^\']*\'|[^"\'\s]+)*\K\s+/';
+                 if( $name==='Tagalog'){
+                    echo $infixes;
+                    $infixes="fiesta    ‘feast’ p=in=ag-pista-han \n";
+                 }
+
                   $example = preg_split($regexp, $infixes);
 
                  $i=count($example);
@@ -376,6 +381,7 @@
                 }else
                 echo $infixes;
             echo "</p>";
+
             echo "<p style='text-align:left;font-size:12pt;color:#000000'><b>Variation:</b>&nbsp".$variation."</p>";
             echo "<p style='text-align:left;font-size:12pt;color:#000000'><b>Frequency:</b>&nbsp";
             if($name!='Tagalog')
@@ -387,7 +393,7 @@
                $str="filipino 20,074        pilipino 12,011 
                 affix+filipino 86   affix+pilipino 1,117
                 fiesta 952  pista 416   
-                affix+fiesta 27 ~ affix+pista 607";
+                affix+fiesta 27 affix+pista 607";
 
                  $regexp = '/\G(?:"[^"]*"|\'[^\']*\'|[^"\'\s]+)*\K\s+/';
                   $example = preg_split($regexp, $str);

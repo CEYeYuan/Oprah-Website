@@ -1,13 +1,6 @@
-----------------------------------------------------
---        Notes
---Database schema, all the atrributes are listed dicrectedly,
---no joins
---already included: slovenian1 slovenian2(note?)  slovenian3 slovenian4
----spanish catalan1 catalan2 dutch french hungarian(column?) tagalog
----------------------------------------------------
 
-CREATE DATABASE if not  EXISTS oprah CHARACTER SET = utf8mb4 COLLATE = utf8mb4_unicode_ci;
-USE oprah;
+CREATE DATABASE if not  EXISTS jurgecne_oprah CHARACTER SET = utf8mb4 COLLATE = utf8mb4_unicode_ci;
+USE jurgecne_oprah;
 
 DROP TABLE IF EXISTS language CASCADE;
 SET auto_increment_increment=1;
@@ -161,16 +154,16 @@ fiesta	‘feast’ 	pista-han	‘instrumental’",
 "Tagalog allows labiodental fricatives {f, v} in certain (old) loanwords from Spanish, as long as they are not derived in which case labial stops {p, b} are preferred.","Triggers","","Likely not triggers (further data needed)",
 "filipino	‘Filipino’	filipina	’feminine’","Triggers",
 "filipino	‘Filipino’	mag-pilipino	‘language’
-fiesta	‘feast’ 	pam-pista	‘festival’   fiesta	 ‘feast’ p<in>ag-pista-han \n","Data unclear (no forms with infixes only)","Affixed words are variant, but non-affixed words are not.","Corpus data available. 
+fiesta	‘feast’ 	pam-pista	‘festival’  ","Data unclear (no forms with infixes only)","Affixed words are variant, but non-affixed words are not.","Corpus data available. 
 filipino 20,074		pilipino 12,011	
 affix+filipino 86	affix+pilipino 1,117
 fiesta 952	pista 416	
-affix+fiesta 27 ~ affix+pista 607
+affix+fiesta 27 affix+pista 607
 F-variants are about twice as frequent as p-variants in the non-affixed words. F-variants are rare in affixed words.","It is unclear how many other words also exhibit the pattern. Loanwords of this kind may not have sufficient frequency in the corpus. (Kie Zuraw p.c.)");
 
 insert into language (title,name,type,examples,source,description,dtrigger,derivational,itrigger,
 	inflectional,ptrigger,prefixes,infixes,variation,frequency,extent) values("Initial r in Basque","Basque","Loanwords",
-"rugbi	‘rugby’	rugbi-a	‘absolutive.definite.singular’
+"rugbi	‘rugby’	erugbi-a	‘absolutive.definite.singular’
 rusia	‘Russia’	erusia-ra	‘denonym’",
 "Varun de Castro-Arrazola, p.c.",
 "Initial r is illicit in Basque, but can occur in recent loanwords. When the loanwords are suffixed, e is epenthesized, in accordance with the native phonology.",
@@ -255,7 +248,7 @@ dətɹɔjt	‘Detroit’	anti-dətɹojt	‘anti-’",
 insert into language (title,name,type,examples,source,description,dtrigger,derivational,itrigger,
 	inflectional,ptrigger,prefixes,infixes,variation,frequency,extent) values(
 	"Vowel tensing Slovenian","Slovenian","Native",
-"ʧlɛn	‘part, paragraph’	ˈʧlen-a	‘genitive.singular’
+"ʧlɛn	'part, paragraph'	ˈʧlen-a	‘genitive.singular’
 mɛt	‘throw’	ˈmet-ək	‘bullet’
 ɾɛk	‘idiom’	ˈɾek-u	‘locative.singular’
 smɛx	‘laughter’	ˈsmex-om	’instrumental.singular’
@@ -266,7 +259,7 @@ smɛx	‘laughter’	ˈsmex-om	’instrumental.singular’
 ,"<a onclick='f1(this);' href=“/references”>Jurgec 2015</a>, <a onclick='f1(this);' href=“/references”>Toporišič 1976/2000</a>",
 "Some roots can have stressed lax mid vowels {ɛ ɔ} when not followed by a suffix. When suffixed, the lax vowels are avoided. Vowels become tense {e o} in monosyllabic roots. Disyllabic or longer roots instead exhibit stress shift to the following root vowel, which is never lax. The resulting unstressed vowel is no longer lax, as unstressed vowels do not contrast in ATR.",
 "Triggers","","Triggers","","Not triggers",
-"ʧlɛn	‘part, paragraph’	ˌpɔt-ˈʧlɛn	‘sub-’
+"ʧlɛn	'part, paragraph'	ˌpɔt-ˈʧlɛn	‘sub-’
 mɛt	‘throw’	do-ˈmɛt	‘reach’
 ɾɛk	‘idiom’	na-ˈɾɛk	‘dictation’
 smɛx	‘laughter’	na-ˈsmɛx	’smile’
@@ -323,9 +316,7 @@ be-ler	'b (letter)-plural'	*be-n	‘b-2.singular.possesive’"
 "Speakers fall into several groups, only some of which show the disyllabic restriction.","Unknown","Unknown");
 insert into language (title,name,type,examples,source,description,dtrigger,derivational,itrigger,
 	inflectional,ptrigger,prefixes,infixes,variation,frequency,extent) values ("Word minimum in Japanese","Japanese","Native",
-"su 	‘vinegar’		
-choko ‘chocolate (truncation)’	*cho"
-,"<a onclick='f1(this);' href=“/references”>Itô 1990</a>, <a onclick='f1(this);' href=“/references”>Kiparsky 1993</a>",
+"su 	'vinegar'  	choko 'chocolate'","<a onclick='f1(this);' href=“/references”>Itô 1990</a>, <a onclick='f1(this);' href=“/references”>Kiparsky 1993</a>",
 "Japanese has a bimoraic word minimum. Non-derived words can be monomoraic and are thus exempt from the bimoraic word minimum.","Triggers","",
 "Triggers","","Unknown","",
 "Unknown",
